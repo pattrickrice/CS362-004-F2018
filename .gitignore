@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .idea/
+*.gcno
+*.gcda
+*.o
 
 # Runtime data
 pids
@@ -60,3 +63,5 @@ typings/
 
 # next.js build output
 .next
+
+cmake-build-debug/
