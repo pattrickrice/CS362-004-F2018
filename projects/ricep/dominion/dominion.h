@@ -132,9 +132,17 @@ int cardAdventurer(
         int drawntreasure,
         struct gameState *state,
         int currentPlayer,
-        int *cardDrawn,
+        int *temphand);
+
+int cardCouncilRoom(int handPos, struct gameState *state, int currentPlayer);
+
+int cardFeast(
+        struct gameState *state,
+        int currentPlayer,
         int *temphand,
-        int *temphandCounter);
+        int choice1);
+
+int cardGardens();
 
 int cardSmithy(int handPos, int currentPlayer, struct gameState *state);
 
