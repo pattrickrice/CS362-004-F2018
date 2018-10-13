@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.12)
 project(dominion)
 
-#set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_FLAGS "-std=c99")
+
 include_directories(.)
 
 add_library(rngs.o rngs.h rngs.c)
