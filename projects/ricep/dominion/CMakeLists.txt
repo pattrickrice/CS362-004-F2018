@@ -50,3 +50,40 @@ add_executable(
         dominion.h
         rngs.c
         rngs.h)
+
+add_executable(
+        cardtest1
+        cardtest1.c
+        utils.h utils.c
+        dominion.c
+        dominion.h
+        rngs.c
+        rngs.h)
+
+
+add_executable(
+        cardtest2
+        cardtest2.c
+        utils.h utils.c
+        dominion.c
+        dominion.h
+        rngs.c
+        rngs.h)
+
+add_executable(
+        cardtest3
+        cardtest3.c
+        utils.h utils.c
+        dominion.c
+        dominion.h
+        rngs.c
+        rngs.h)
+
+add_executable(
+        cardtest4
+        cardtest4.c
+        utils.h utils.c
+        dominion.c
+        dominion.h
+        rngs.c
+        rngs.h)
