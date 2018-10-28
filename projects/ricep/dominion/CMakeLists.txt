@@ -87,3 +87,4 @@ add_executable(
         dominion.h
         rngs.c
         rngs.h)
+
