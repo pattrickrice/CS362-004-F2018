@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g  -Wl,--enable-auto-import CMakeFiles/unittest2.dir/unittest2.c.o CMakeFiles/unittest2.dir/utils.c.o CMakeFiles/unittest2.dir/dominion.c.o CMakeFiles/unittest2.dir/rngs.c.o  -o unittest2.exe -Wl,--out-implib,libunittest2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

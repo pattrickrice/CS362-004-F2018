@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Patrick/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
+/cygdrive/c/Users/Patrick/CS362-004-F2018/projects/ricep/dominion/unittest2.c
+utils.h
+/cygdrive/c/Users/Patrick/CS362-004-F2018/projects/ricep/dominion/utils.h
+dominion.h
+/cygdrive/c/Users/Patrick/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
+/cygdrive/c/Users/Patrick/CS362-004-F2018/projects/ricep/dominion/utils.c
+utils.h
+/cygdrive/c/Users/Patrick/CS362-004-F2018/projects/ricep/dominion/utils.h
+
+/cygdrive/c/Users/Patrick/CS362-004-F2018/projects/ricep/dominion/utils.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+time.h
+-
+string.h
+-
+
