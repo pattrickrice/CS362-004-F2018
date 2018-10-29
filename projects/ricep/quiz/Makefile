@@ -8,3 +8,6 @@ testme: testme.o
 
 run: testme
 	./testme
+
+clean:
+	rm *.o *.gcno testme

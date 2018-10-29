@@ -5,14 +5,27 @@
 
 char inputChar()
 {
-    // TODO: rewrite this function
-    return ' ';
+    int max_number = 10;
+    int minimum_number = 0;
+    int random_number = (char) rand() % (max_number + 1 - minimum_number) + minimum_number;
+    char *array = "[({ ax})]";
+    char chosen = array[random_number];
+    return chosen;
 }
 
 char *inputString()
 {
-    // TODO: rewrite this function
-    return "";
+    int max_number = 5;
+    int minimum_number = 0;
+    int length = 6;
+    char letters[5] = "rste\0";
+
+    char *input = malloc(length * sizeof(char));
+    for (int i = 0; i < length; i ++){
+        int random_number = (char) rand() % (max_number + 1 - minimum_number) + minimum_number;
+        input[i] = letters[random_number];
+    }
+    return input;
 }
 
 void testme()
@@ -45,6 +58,7 @@ void testme()
       printf("error ");
       exit(200);
     }
+    free(s);
   }
 }
 
