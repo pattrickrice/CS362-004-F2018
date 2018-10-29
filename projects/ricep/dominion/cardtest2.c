@@ -240,8 +240,8 @@ int testCorrectHandCount()
 
     // check the state of the game is altered.
     totalTests++;
-    passedTests += assertEqual(
-            state->handCount[player], 2,
+    passedTests += assertTrue((
+            state->handCount[player] == 2),
             "Player should only have 2 cards (the treasure cards drawn)");
 
     free(state);

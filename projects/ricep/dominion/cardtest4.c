@@ -48,15 +48,15 @@ int testGardens()
 
 
     totalTests++;
-    passedTests += assertEqual(
-            cardEffect(card,
+    passedTests += assertTrue(
+            (cardEffect(card,
                        choice1,
                        choice2,
                        choice3,
                        state,
                        handPos,
-                       bonus),
-            -1,
+                       bonus)
+            == -1),
             "cardEffect returns correct return code of -1");
     free(state);
     return printResults(totalTests, passedTests);
