@@ -40,6 +40,8 @@ int testCouncilRoom()
     state->whoseTurn = player;
     state->hand[player][handPos] = council_room;
     state->handCount[player]++;
+    state->numBuys = 0;
+    state->numPlayers = 4;
     state->deckCount[player] = MAX_DECK;
     state->deckCount[player + 1] = MAX_DECK;
     state->deckCount[player + 2] = MAX_DECK;
@@ -52,17 +54,34 @@ int testCouncilRoom()
 
     // test the function for the correct return code
     totalTests++;
-    passedTests += assertTrue(cardEffect(card,
-                                         choice1,
-                                         choice2,
-                                         choice3,
-                                         state,
-                                         handPos,
-                                         bonus) == 0, "cardEffect returns correct return code of 0");
+    passedTests += assertEqual(state->numBuys, 0, "State numbuy is 0 before card");
+
+    totalTests++;
+    passedTests += assertEqual(
+            cardEffect(card,
+                       choice1,
+                       choice2,
+                       choice3,
+                       state,
+                       handPos,
+                       bonus),
+            0,
+            "cardEffect returns correct return code of 0");
 
     // check the state of the game is altered.
-//    totalTests++;
-//    passedTests += assertTrue((state->handCount[player] == 2), "Player Hand count is 2");
+    totalTests++;
+    passedTests += assertEqual(state->numBuys, 1, "State numbuy is 1 after card");
 
+    totalTests++;
+    passedTests += assertEqual(state->handCount[player], 4, "Player Hand count is 0");
+
+    totalTests++;
+    passedTests += assertEqual(state->handCount[player + 1], 1, "Player2 Hand count is 1");
+
+    totalTests++;
+    passedTests += assertEqual(state->handCount[player + 2], 1, "Player3 Hand count is 1");
+
+    totalTests++;
+    passedTests += assertEqual(state->handCount[player + 3], 1, "Player4 Hand count is 1");
     return printResults(totalTests, passedTests);
 }

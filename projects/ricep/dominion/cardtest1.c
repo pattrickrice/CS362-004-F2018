@@ -48,17 +48,20 @@ int testSmithy()
 
     // test the function for the correct return code
     totalTests++;
-    passedTests += assertTrue(cardEffect(card,
-               choice1,
-               choice2,
-               choice3,
-               state,
-               handPos,
-               bonus) == 0, "cardEffect returns correct return code of 0");
+    passedTests += assertEqual(
+            cardEffect(card,
+                       choice1,
+                       choice2,
+                       choice3,
+                       state,
+                       handPos,
+                       bonus),
+            0,
+            "cardEffect returns correct return code of 0");
 
     // check the state of the game is altered.
     totalTests++;
-    passedTests += assertTrue((state->handCount[player] == 2), "Player Hand count is 2");
+    passedTests += assertEqual(state->handCount[player], 2, "Player Hand count is 2");
 
     return printResults(totalTests, passedTests);
 }

@@ -41,16 +41,29 @@ unittestresults:
 	gcc -o unittest4 unittest4.c -g  dominion.o rngs.o utils.o $(CFLAGS)
 	gcc -o cardtest1 cardtest1.c -g  dominion.o rngs.o utils.o $(CFLAGS)
 	gcc -o cardtest2 cardtest2.c -g  dominion.o rngs.o utils.o $(CFLAGS)
+	gcc -o cardtest3 cardtest3.c -g  dominion.o rngs.o utils.o $(CFLAGS)
+	gcc -o cardtest4 cardtest4.c -g  dominion.o rngs.o utils.o $(CFLAGS)
 
 	echo "" > unittestresult.out
 	./unittest1 >> unittestresult.out
 	./unittest2 >> unittestresult.out
 	./unittest3 >> unittestresult.out
 	./unittest4 >> unittestresult.out
+	./cardtest1 >> unittestresult.out
+	./cardtest2 >> unittestresult.out
+	./cardtest3 >> unittestresult.out
+	./cardtest4 >> unittestresult.out
+
 	gcov unittest1.c >> unittestresult.out
 	gcov unittest2.c >> unittestresult.out
 	gcov unittest3.c >> unittestresult.out
 	gcov unittest4.c >> unittestresult.out
+
+	gcov cardtest1.c >> unittestresult.out
+	gcov cardtest2.c >> unittestresult.out
+	gcov cardtest3.c >> unittestresult.out
+	gcov cardtest4.c >> unittestresult.out
+
 	gcov dominion.c >> unittestresult.out
 
 
