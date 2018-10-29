@@ -103,3 +103,15 @@ int printResults(int total, int passed){
     }
     return 0;
 }
+
+int assertEqual(int value1, int value2, char *message){
+    char *buffer = malloc((sizeof(message) + 10) + sizeof(int) * 2);
+
+    if (value1 == value2){
+        return assertTrue(1, message);
+    } else{
+        sprintf(buffer, "%d != %d %s", value1, value2, message);
+        return assertTrue(0, buffer);
+    }
+
+}

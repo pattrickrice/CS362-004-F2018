@@ -18,6 +18,7 @@
 #define ANSI_COLOR_RESET   "\x1b[0m"
 
 int assertTrue(int result, char testName[]);
+int assertEqual(int value1, int value2, char *message);
 void logV(char message[]);
 void logS(char message[]);
 void logE(char message[]);
