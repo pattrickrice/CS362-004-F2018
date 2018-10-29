@@ -21,12 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="690a791f-25e8-4c1f-a2ae-54db5bce8ecb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cardtest1" beforeDir="false" afterPath="$PROJECT_DIR$/cardtest1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cardtest1.c" beforeDir="false" afterPath="$PROJECT_DIR$/cardtest1.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cardtest2" beforeDir="false" afterPath="$PROJECT_DIR$/cardtest2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cardtest3.c" beforeDir="false" afterPath="$PROJECT_DIR$/cardtest3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cardtest4.c" beforeDir="false" afterPath="$PROJECT_DIR$/cardtest4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardtest3" beforeDir="false" afterPath="$PROJECT_DIR$/cardtest3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardtest4" beforeDir="false" afterPath="$PROJECT_DIR$/cardtest4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest1.c" beforeDir="false" afterPath="$PROJECT_DIR$/unittest1.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +46,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="6" />
-          <entry key="c" value="31" />
+          <entry key="c" value="35" />
           <entry key="h" value="6" />
           <entry key="txt" value="3" />
         </counts>
@@ -56,13 +55,13 @@
         <counts>
           <entry key="CMakeLists.txt" value="3" />
           <entry key="Makefile" value="6" />
-          <entry key="ObjectiveC" value="37" />
+          <entry key="ObjectiveC" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Makefile" value="255" />
-          <entry key="c" value="7620" />
+          <entry key="c" value="7623" />
           <entry key="h" value="90" />
           <entry key="txt" value="72" />
         </counts>
@@ -72,7 +71,7 @@
           <entry key="CMakeLists.txt" value="72" />
           <entry key="Doxygen file" value="13" />
           <entry key="Makefile" value="255" />
-          <entry key="ObjectiveC" value="7697" />
+          <entry key="ObjectiveC" value="7700" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -82,34 +81,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cardtest3.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cardtest1.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cardtest4.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="942">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            <state relative-caret-position="645">
+              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -120,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cardtest2.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="-282">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -130,10 +105,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unittest1.c">
+        <entry file="file://$PROJECT_DIR$/cardtest3.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="32" column="25" selection-start-line="32" selection-end-line="33" />
+            <state relative-caret-position="-371">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -142,10 +117,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cardtest4.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dominion.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="1082" column="50" selection-start-line="1082" selection-start-column="50" selection-end-line="1082" selection-end-column="50" />
+            <state relative-caret-position="157">
+              <caret line="1064" column="19" selection-start-line="1064" selection-start-column="8" selection-end-line="1064" selection-end-column="19" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -154,10 +141,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dominion.h">
+        <entry file="file://$PROJECT_DIR$/playdom.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2031">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="241">
+              <caret line="100" column="20" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest3.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-400">
+              <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unittest4.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,21 +186,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-              <folding>
-                <element signature="e#51#70#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="-28">
               <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
             </state>
           </provider>
@@ -196,9 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>whoseTurn</find>
-      <find>initialize</find>
-      <find>GameOv</find>
       <find>whose</find>
       <find>getCost</find>
       <find>turn</find>
@@ -212,17 +211,23 @@
       <find>effect</find>
       <find>card</find>
       <find>cardEffect</find>
-      <find>handcard</find>
       <find>advent</find>
       <find>cardAdven</find>
       <find>int drawCard</find>
-      <find>smithy</find>
       <find>cardAdventurer</find>
       <find>drawCard</find>
       <find>cardCouncil</find>
       <find>adventure</find>
       <find>council</find>
       <find>cardCouncilRoom</find>
+      <find>gameover</find>
+      <find>handcard</find>
+      <find>smithy</find>
+      <find>adventurer</find>
+      <find>cardeffect</find>
+      <find>playCard</find>
+      <find>gardens</find>
+      <find>councilRoom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,7 +237,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/unittest4.c" />
-        <option value="$PROJECT_DIR$/unittest1.c" />
         <option value="$PROJECT_DIR$/unittest2.c" />
         <option value="$PROJECT_DIR$/unittest3.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
@@ -244,6 +248,7 @@
         <option value="$PROJECT_DIR$/dominion.c" />
         <option value="$PROJECT_DIR$/cardtest3.c" />
         <option value="$PROJECT_DIR$/cardtest1.c" />
+        <option value="$PROJECT_DIR$/unittest1.c" />
       </list>
     </option>
   </component>
@@ -305,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.cardtest3">
+  <component name="RunManager" selected="Application.unittest1">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -379,12 +384,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540749333577</updated>
-      <workItem from="1540749337063" duration="24203000" />
+      <workItem from="1540749337063" duration="28723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24203000" />
+    <option name="totallyTimeSpent" value="28723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
@@ -402,7 +407,7 @@
       <window_info anchor="bottom" id="CMake" weight="0.32917705" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,7 +421,7 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24946237" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" order="0" />
+      <window_info anchor="bottom" id="CMake" order="0" weight="0.32917705" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -450,46 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playdom.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest4.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -501,16 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2031">
           <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unittest1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="32" column="25" selection-start-line="32" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -531,10 +486,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittest4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playdom.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardtest1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cardtest2.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="-282">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -543,7 +565,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cardtest4.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
+        <state relative-caret-position="446">
           <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -551,39 +573,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
+    <entry file="file://$PROJECT_DIR$/cardtest3.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="-371">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dominion.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="1082" column="50" selection-start-line="1082" selection-start-column="50" selection-end-line="1082" selection-end-column="50" />
+        <state relative-caret-position="157">
+          <caret line="1064" column="19" selection-start-line="1064" selection-start-column="8" selection-end-line="1064" selection-end-column="19" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardtest3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardtest1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

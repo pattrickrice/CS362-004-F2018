@@ -23,7 +23,7 @@ int testPlayerTurn(){
     struct gameState state;
     int totalTests = 0;
     int passedTests = 0;
-    for (int i = 0; i < 6; i ++){
+    for (int i = 0; i < MAX_PLAYERS; i ++){
         char message[100];
         sprintf(message, "Testing that is is player %d's turn", i);
         state.whoseTurn = i;
