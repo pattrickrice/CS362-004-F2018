@@ -34,11 +34,11 @@ int assertTrue(int result, char testName[])
 char * timeStamp(){
     time_t rawtime;
     struct tm *timeinfo;
-    char *timeStamp;
 
     time(&rawtime);
     timeinfo = localtime(&rawtime);
-    timeStamp = asctime(timeinfo);
+    char *timeStamp = malloc(100 * sizeof(char));
+    strcpy(timeStamp, asctime(timeinfo));
 
     // remove newline character
     timeStamp[strlen(timeStamp) -1] = '\0';

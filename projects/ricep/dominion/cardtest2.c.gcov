@@ -1,0 +1,251 @@
+        -:    0:Source:cardtest2.c
+        -:    0:Graph:cardtest2.gcno
+        -:    0:Data:cardtest2.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "utils.h"
+        -:    2:#include "dominion.h"
+        -:    3:
+        -:    4:int testDraw2Copper();
+        -:    5:int testDraw2Silver();
+        -:    6:int testDraw2Gold();
+        -:    7:int testCorrectHandCount();
+        -:    8:
+        -:    9:
+        -:   10:/******************************************************************************
+        -:   11: * UnitTest for the smithy card function
+        -:   12: *****************************************************************************/
+        1:   13:int main()
+        -:   14:{
+        1:   15:    logV("[Starting cardtest2] - Testing the adventurer card in Dominion.c");
+        1:   16:    int testsPassed = testDraw2Copper();
+        1:   17:    testsPassed += testDraw2Silver();
+        1:   18:    testsPassed += testDraw2Gold();
+        1:   19:    testsPassed += testCorrectHandCount();
+        -:   20:
+        1:   21:    logV("[cardtest2 RESULTS] ---------------------------------------------");
+        1:   22:    printResults(4, testsPassed);
+        1:   23:    logV("[Ending cardtest2] - Testing the adventurer card in Dominion.c\n\n");
+        -:   24:}
+        -:   25:
+        -:   26:/******************************************************************************
+        -:   27: * Test the adventurer card through the card effect function. The card effect
+        -:   28: * should return the desired return code and the smithy card should alter the
+        -:   29: * state of the game.
+        -:   30: *****************************************************************************/
+        1:   31:int testDraw2Copper()
+        -:   32:{
+        1:   33:    int totalTests = 0;
+        1:   34:    int passedTests = 0;
+        -:   35:
+        -:   36:    // initalize variables needed for the card effect function
+        1:   37:    int card = adventurer;
+        1:   38:    int choice1 = 0;
+        1:   39:    int choice2 = 0;
+        1:   40:    int choice3 = 0;
+        1:   41:    struct gameState *state = newGame();
+        1:   42:    int handPos = 0;
+        1:   43:    int *bonus = malloc(sizeof(int));
+        1:   44:    *bonus = 0;
+        1:   45:    int player = 0;
+        -:   46:
+        -:   47:    // make the current card being played the smithy
+        1:   48:    state->whoseTurn = player;
+        1:   49:    state->hand[player][handPos] = card;
+        1:   50:    state->handCount[player]++;
+        1:   51:    state->deckCount[player] = MAX_DECK;
+        -:   52:
+        1:   53:    state->deck[player][1] = copper;
+        1:   54:    state->deck[player][2] = copper;
+        -:   55:
+        -:   56:    // assume the handcount from our set up is correct
+        1:   57:    totalTests++;
+        1:   58:    passedTests += assertTrue((state->handCount[player] == 1), "Player Hand count is 1");
+        -:   59:
+        -:   60:    // test the function for the correct return code
+        1:   61:    totalTests++;
+        1:   62:    passedTests += assertTrue(
+        1:   63:            cardEffect(card,
+        -:   64:                       choice1,
+        -:   65:                       choice2,
+        -:   66:                       choice3,
+        -:   67:                       state,
+        -:   68:                       handPos,
+        -:   69:                       bonus) == 0,
+        -:   70:            "cardEffect returns correct return code of 0");
+        -:   71:
+        -:   72:    // check the state of the game is altered.
+        1:   73:    totalTests++;
+        1:   74:    passedTests += assertEqual(
+        1:   75:            state->hand[player][state->handCount[player] - 1], copper,
+        -:   76:            "Top Card is Copper");
+        -:   77:
+        1:   78:    totalTests++;
+        1:   79:    passedTests += assertEqual(
+        1:   80:            state->hand[player][state->handCount[player] - 2], copper,
+        -:   81:            "Top Card is Copper");
+        -:   82:
+        1:   83:    return printResults(totalTests, passedTests);
+        -:   84:}
+        -:   85:
+        1:   86:int testDraw2Silver()
+        -:   87:{
+        1:   88:    int totalTests = 0;
+        1:   89:    int passedTests = 0;
+        -:   90:
+        -:   91:    // initalize variables needed for the card effect function
+        1:   92:    int card = adventurer;
+        1:   93:    int choice1 = 0;
+        1:   94:    int choice2 = 0;
+        1:   95:    int choice3 = 0;
+        1:   96:    struct gameState *state = newGame();
+        1:   97:    int handPos = 0;
+        1:   98:    int *bonus = malloc(sizeof(int));
+        1:   99:    *bonus = 0;
+        1:  100:    int player = 0;
+        -:  101:
+        -:  102:    // make the current card being played the smithy
+        1:  103:    state->whoseTurn = player;
+        1:  104:    state->hand[player][handPos] = card;
+        1:  105:    state->handCount[player]++;
+        1:  106:    state->deckCount[player] = MAX_DECK;
+        -:  107:
+        1:  108:    state->deck[player][1] = silver;
+        1:  109:    state->deck[player][2] = silver;
+        -:  110:
+        -:  111:    // assume the handcount from our set up is correct
+        1:  112:    totalTests++;
+        1:  113:    passedTests += assertTrue((state->handCount[player] == 1), "Player Hand count is 1");
+        -:  114:
+        -:  115:    // test the function for the correct return code
+        1:  116:    totalTests++;
+        1:  117:    passedTests += assertTrue(
+        1:  118:            cardEffect(card,
+        -:  119:                       choice1,
+        -:  120:                       choice2,
+        -:  121:                       choice3,
+        -:  122:                       state,
+        -:  123:                       handPos,
+        -:  124:                       bonus) == 0,
+        -:  125:            "cardEffect returns correct return code of 0");
+        -:  126:
+        -:  127:    // check the state of the game is altered.
+        1:  128:    totalTests++;
+        1:  129:    passedTests += assertEqual(
+        1:  130:            state->hand[player][state->handCount[player] - 1], silver,
+        -:  131:            "Top Card is silver");
+        -:  132:
+        1:  133:    totalTests++;
+        1:  134:    passedTests += assertEqual(
+        1:  135:            state->hand[player][state->handCount[player] - 2], silver,
+        -:  136:            "Top Card is silver");
+        -:  137:
+        1:  138:    return printResults(totalTests, passedTests);
+        -:  139:}
+        -:  140:
+        1:  141:int testDraw2Gold()
+        -:  142:{
+        1:  143:    int totalTests = 0;
+        1:  144:    int passedTests = 0;
+        -:  145:
+        -:  146:    // initalize variables needed for the card effect function
+        1:  147:    int card = adventurer;
+        1:  148:    int choice1 = 0;
+        1:  149:    int choice2 = 0;
+        1:  150:    int choice3 = 0;
+        1:  151:    struct gameState *state = newGame();
+        1:  152:    int handPos = 0;
+        1:  153:    int *bonus = malloc(sizeof(int));
+        1:  154:    *bonus = 0;
+        1:  155:    int player = 0;
+        -:  156:
+        -:  157:    // make the current card being played the smithy
+        1:  158:    state->whoseTurn = player;
+        1:  159:    state->hand[player][handPos] = card;
+        1:  160:    state->handCount[player]++;
+        1:  161:    state->deckCount[player] = MAX_DECK;
+        -:  162:
+        1:  163:    state->deck[player][1] = gold;
+        1:  164:    state->deck[player][2] = gold;
+        -:  165:
+        -:  166:    // assume the handcount from our set up is correct
+        1:  167:    totalTests++;
+        1:  168:    passedTests += assertTrue((state->handCount[player] == 1), "Player Hand count is 1");
+        -:  169:
+        -:  170:    // test the function for the correct return code
+        1:  171:    totalTests++;
+        1:  172:    passedTests += assertTrue(
+        1:  173:            cardEffect(card,
+        -:  174:                       choice1,
+        -:  175:                       choice2,
+        -:  176:                       choice3,
+        -:  177:                       state,
+        -:  178:                       handPos,
+        -:  179:                       bonus) == 0,
+        -:  180:            "cardEffect returns correct return code of 0");
+        -:  181:
+        -:  182:    // check the state of the game is altered.
+        1:  183:    totalTests++;
+        1:  184:    passedTests += assertEqual(
+        1:  185:            state->hand[player][state->handCount[player] - 1], gold,
+        -:  186:            "Top Card is silver");
+        -:  187:
+        1:  188:    totalTests++;
+        1:  189:    passedTests += assertEqual(
+        1:  190:            state->hand[player][state->handCount[player] - 2], gold,
+        -:  191:            "Top Card is silver");
+        -:  192:
+        1:  193:    return printResults(totalTests, passedTests);
+        -:  194:}
+        -:  195:
+        1:  196:int testCorrectHandCount()
+        -:  197:{
+        1:  198:    int totalTests = 0;
+        1:  199:    int passedTests = 0;
+        -:  200:
+        -:  201:    // initalize variables needed for the card effect function
+        1:  202:    int card = adventurer;
+        1:  203:    int choice1 = 0;
+        1:  204:    int choice2 = 0;
+        1:  205:    int choice3 = 0;
+        1:  206:    struct gameState *state = newGame();
+        1:  207:    int handPos = 0;
+        1:  208:    int *bonus = malloc(sizeof(int));
+        1:  209:    *bonus = 0;
+        1:  210:    int player = 0;
+        -:  211:
+        -:  212:    // make the current card being played the smithy
+        1:  213:    state->whoseTurn = player;
+        1:  214:    state->hand[player][handPos] = card;
+        1:  215:    state->handCount[player]++;
+        1:  216:    state->deckCount[player] = MAX_DECK;
+        -:  217:
+        1:  218:    state->deck[player][1] = 0;
+        1:  219:    state->deck[player][2] = 0;
+        1:  220:    state->deck[player][4] = gold;
+        1:  221:    state->deck[player][5] = gold;
+        -:  222:
+        -:  223:    // assume the handcount from our set up is correct
+        1:  224:    totalTests++;
+        1:  225:    passedTests += assertTrue((state->handCount[player] == 1), "Player Hand count is 1");
+        -:  226:
+        -:  227:    // test the function for the correct return code
+        1:  228:    totalTests++;
+        1:  229:    passedTests += assertTrue(
+        1:  230:            cardEffect(card,
+        -:  231:                       choice1,
+        -:  232:                       choice2,
+        -:  233:                       choice3,
+        -:  234:                       state,
+        -:  235:                       handPos,
+        -:  236:                       bonus) == 0,
+        -:  237:            "cardEffect returns correct return code of 0");
+        -:  238:
+        -:  239:    // check the state of the game is altered.
+        1:  240:    totalTests++;
+        1:  241:    passedTests += assertEqual(
+        -:  242:            state->handCount[player], 2,
+        -:  243:            "Player should only have 2 cards (the treasure cards drawn)");
+        -:  244:
+        1:  245:    return printResults(totalTests, passedTests);
+        -:  246:}

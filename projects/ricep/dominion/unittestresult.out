@@ -1,0 +1,2265 @@
+
+[Sun Oct 28 19:57:47 2018] [Starting unittest1] - Testing the whoseTurn Function in Dominion.c
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Testing that is is player 0's turn[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Testing that is is player 1's turn[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Testing that is is player 2's turn[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Testing that is is player 3's turn[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 4; total passed 4
+[0m
+[Sun Oct 28 19:57:47 2018] [UNITTEST 1 RESULTS] ---------------------------------------------
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 1; total passed 1
+[0m
+[Sun Oct 28 19:57:47 2018] [Ending unittest1] - Testing the whoseTurn Function in Dominion.c
+
+
+[Sun Oct 28 19:57:47 2018] [Starting unittest2] - Testing the isGameOver Function in Dominion.c
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - All supply piles at 1 returns a 0[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - No provinces left returns a 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 2; total passed 2
+[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - All supply piles at 1 returns a 0[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Three supply Piles at 0 returns a 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 2; total passed 2
+[0m
+[Sun Oct 28 19:57:47 2018] [RESULTS unittest2] ----------------------------------------------
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 2; total passed 2
+[0m
+[Sun Oct 28 19:57:47 2018] [Ending unittest2] - Testing the isGameOver Function in Dominion.c
+
+
+[Sun Oct 28 19:57:47 2018] [Starting unittest3] - Testing the fullDeckCount Function in Dominion.c
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 3 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 2 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 1 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 0 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 6 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 5 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 4 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 3 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 9 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 8 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 7 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 6 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 12 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 11 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 10 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 9 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 15 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 14 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 13 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 12 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 18 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 17 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 16 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 15 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 21 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 20 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 19 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 18 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 24 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 23 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 22 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 21 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 27 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 26 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 25 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 24 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 30 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 29 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 28 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 27 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 33 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 32 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 31 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 30 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 36 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 35 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 34 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 33 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 39 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 38 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 37 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 36 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 42 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 41 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 40 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 39 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 45 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 44 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 43 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 42 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 48 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 47 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 46 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 45 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 51 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 50 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 49 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 48 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 54 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 53 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 52 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 51 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 57 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 56 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 55 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 54 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 60 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 59 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 58 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 57 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 63 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 62 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 61 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 60 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 66 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 65 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 64 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 63 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 69 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 68 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 67 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 66 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 72 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 71 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 70 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 69 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 75 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 74 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 73 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 72 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 78 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 77 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 76 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 75 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 81 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 80 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 79 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 78 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 84 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 83 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 82 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - There are 81 cards in the deck[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 112; total passed 112
+[0m
+[Sun Oct 28 19:57:47 2018] [RESULTS unittest3] -----------------------------------------------
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 1; total passed 1
+[0m
+[Sun Oct 28 19:57:47 2018] [Ending unittest3] - Testing the fullDeckCount Function in Dominion.c
+
+
+[Sun Oct 28 19:57:47 2018] [Starting unittest4] - Testing the  Function in Dominion.c
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 0 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 1 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 2 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 3 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 4 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 5 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 6 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 7 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 8 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 9 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 10 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 11 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 12 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 13 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 14 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 15 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 16 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 17 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 18 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 19 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 20 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 21 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 22 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 23 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 24 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 25 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 26 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 27 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 28 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 29 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 30 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 31 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 32 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 33 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 34 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 35 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 36 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 37 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 38 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 39 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 40 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 41 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 42 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 43 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 44 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 45 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 46 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 47 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 48 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 49 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 50 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 51 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 52 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 53 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 54 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 55 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 56 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 57 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 58 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 59 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 60 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 61 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 62 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 63 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 64 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 65 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 66 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 67 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 68 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 69 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 70 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 71 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 72 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 73 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 74 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 75 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 76 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 77 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 78 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 79 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 80 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 81 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 82 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 83 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 84 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 85 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 86 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 87 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 88 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 89 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 90 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 91 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 92 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 93 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 94 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 95 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 96 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 97 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 98 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 99 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 100 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 101 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 102 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 103 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 104 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 105 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 106 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 107 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 108 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 109 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 110 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 111 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 112 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 113 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 114 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 115 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 116 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 117 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 118 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 119 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 120 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 121 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 122 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 123 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 124 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 125 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 126 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 127 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 128 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 129 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 130 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 131 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 132 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 133 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 134 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 135 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 136 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 137 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 138 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 139 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 140 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 141 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 142 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 143 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 144 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 145 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 146 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 147 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 148 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 149 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 150 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 151 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 152 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 153 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 154 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 155 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 156 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 157 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 158 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 159 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 160 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 161 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 162 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 163 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 164 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 165 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 166 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 167 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 168 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 169 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 170 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 171 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 172 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 173 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 174 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 175 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 176 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 177 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 178 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 179 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 180 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 181 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 182 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 183 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 184 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 185 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 186 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 187 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 188 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 189 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 190 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 191 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 192 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 193 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 194 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 195 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 196 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 197 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 198 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 199 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 200 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 201 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 202 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 203 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 204 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 205 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 206 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 207 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 208 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 209 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 210 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 211 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 212 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 213 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 214 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 215 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 216 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 217 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 218 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 219 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 220 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 221 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 222 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 223 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 224 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 225 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 226 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 227 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 228 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 229 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 230 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 231 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 232 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 233 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 234 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 235 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 236 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 237 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 238 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 239 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 240 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 241 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 242 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 243 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 244 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 245 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 246 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 247 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 248 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 249 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 250 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 251 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 252 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 253 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 254 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 255 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 256 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 257 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 258 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 259 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 260 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 261 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 262 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 263 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 264 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 265 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 266 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 267 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 268 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 269 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 270 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 271 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 272 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 273 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 274 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 275 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 276 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 277 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 278 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 279 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 280 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 281 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 282 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 283 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 284 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 285 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 286 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 287 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 288 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 289 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 290 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 291 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 292 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 293 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 294 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 295 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 296 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 297 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 298 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 299 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 300 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 301 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 302 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 303 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 304 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 305 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 306 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 307 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 308 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 309 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 310 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 311 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 312 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 313 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 314 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 315 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 316 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 317 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 318 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 319 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 320 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 321 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 322 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 323 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 324 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 325 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 326 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 327 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 328 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 329 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 330 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 331 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 332 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 333 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 334 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 335 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 336 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 337 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 338 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 339 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 340 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 341 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 342 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 343 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 344 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 345 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 346 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 347 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 348 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 349 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 350 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 351 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 352 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 353 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 354 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 355 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 356 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 357 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 358 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 359 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 360 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 361 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 362 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 363 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 364 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 365 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 366 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 367 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 368 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 369 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 370 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 371 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 372 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 373 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 374 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 375 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 376 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 377 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 378 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 379 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 380 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 381 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 382 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 383 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 384 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 385 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 386 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 387 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 388 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 389 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 390 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 391 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 392 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 393 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 394 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 395 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 396 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 397 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 398 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 399 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 400 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 401 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 402 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 403 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 404 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 405 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 406 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 407 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 408 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 409 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 410 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 411 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 412 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 413 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 414 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 415 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 416 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 417 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 418 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 419 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 420 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 421 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 422 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 423 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 424 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 425 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 426 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 427 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 428 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 429 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 430 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 431 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 432 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 433 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 434 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 435 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 436 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 437 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 438 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 439 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 440 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 441 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 442 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 443 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 444 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 445 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 446 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 447 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 448 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 449 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 450 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 451 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 452 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 453 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 454 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 455 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 456 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 457 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 458 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 459 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 460 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 461 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 462 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 463 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 464 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 465 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 466 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 467 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 468 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 469 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 470 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 471 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 472 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 473 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 474 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 475 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 476 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 477 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 478 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 479 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 480 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 481 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 482 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 483 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 484 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 485 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 486 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 487 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 488 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 489 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 490 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 491 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 492 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 493 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 494 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 495 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 496 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 497 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 498 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 0 card in position 499 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 0 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 1 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 2 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 3 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 4 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 5 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 6 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 7 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 8 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 9 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 10 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 11 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 12 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 13 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 14 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 15 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 16 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 17 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 18 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 19 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 20 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 21 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 22 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 23 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 24 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 25 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 26 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 27 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 28 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 29 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 30 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 31 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 32 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 33 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 34 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 35 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 36 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 37 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 38 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 39 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 40 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 41 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 42 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 43 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 44 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 45 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 46 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 47 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 48 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 49 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 50 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 51 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 52 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 53 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 54 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 55 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 56 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 57 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 58 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 59 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 60 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 61 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 62 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 63 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 64 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 65 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 66 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 67 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 68 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 69 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 70 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 71 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 72 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 73 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 74 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 75 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 76 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 77 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 78 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 79 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 80 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 81 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 82 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 83 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 84 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 85 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 86 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 87 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 88 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 89 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 90 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 91 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 92 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 93 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 94 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 95 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 96 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 97 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 98 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 99 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 100 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 101 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 102 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 103 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 104 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 105 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 106 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 107 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 108 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 109 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 110 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 111 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 112 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 113 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 114 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 115 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 116 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 117 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 118 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 119 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 120 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 121 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 122 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 123 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 124 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 125 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 126 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 127 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 128 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 129 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 130 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 131 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 132 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 133 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 134 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 135 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 136 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 137 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 138 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 139 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 140 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 141 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 142 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 143 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 144 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 145 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 146 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 147 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 148 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 149 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 150 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 151 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 152 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 153 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 154 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 155 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 156 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 157 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 158 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 159 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 160 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 161 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 162 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 163 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 164 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 165 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 166 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 167 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 168 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 169 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 170 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 171 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 172 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 173 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 174 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 175 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 176 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 177 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 178 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 179 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 180 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 181 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 182 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 183 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 184 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 185 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 186 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 187 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 188 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 189 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 190 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 191 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 192 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 193 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 194 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 195 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 196 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 197 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 198 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 199 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 200 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 201 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 202 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 203 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 204 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 205 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 206 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 207 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 208 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 209 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 210 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 211 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 212 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 213 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 214 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 215 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 216 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 217 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 218 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 219 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 220 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 221 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 222 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 223 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 224 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 225 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 226 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 227 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 228 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 229 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 230 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 231 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 232 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 233 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 234 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 235 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 236 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 237 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 238 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 239 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 240 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 241 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 242 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 243 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 244 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 245 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 246 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 247 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 248 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 249 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 250 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 251 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 252 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 253 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 254 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 255 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 256 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 257 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 258 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 259 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 260 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 261 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 262 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 263 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 264 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 265 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 266 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 267 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 268 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 269 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 270 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 271 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 272 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 273 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 274 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 275 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 276 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 277 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 278 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 279 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 280 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 281 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 282 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 283 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 284 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 285 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 286 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 287 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 288 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 289 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 290 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 291 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 292 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 293 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 294 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 295 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 296 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 297 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 298 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 299 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 300 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 301 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 302 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 303 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 304 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 305 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 306 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 307 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 308 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 309 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 310 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 311 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 312 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 313 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 314 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 315 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 316 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 317 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 318 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 319 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 320 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 321 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 322 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 323 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 324 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 325 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 326 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 327 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 328 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 329 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 330 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 331 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 332 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 333 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 334 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 335 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 336 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 337 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 338 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 339 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 340 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 341 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 342 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 343 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 344 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 345 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 346 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 347 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 348 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 349 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 350 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 351 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 352 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 353 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 354 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 355 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 356 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 357 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 358 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 359 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 360 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 361 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 362 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 363 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 364 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 365 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 366 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 367 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 368 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 369 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 370 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 371 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 372 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 373 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 374 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 375 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 376 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 377 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 378 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 379 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 380 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 381 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 382 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 383 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 384 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 385 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 386 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 387 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 388 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 389 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 390 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 391 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 392 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 393 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 394 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 395 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 396 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 397 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 398 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 399 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 400 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 401 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 402 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 403 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 404 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 405 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 406 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 407 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 408 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 409 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 410 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 411 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 412 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 413 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 414 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 415 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 416 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 417 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 418 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 419 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 420 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 421 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 422 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 423 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 424 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 425 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 426 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 427 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 428 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 429 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 430 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 431 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 432 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 433 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 434 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 435 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 436 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 437 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 438 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 439 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 440 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 441 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 442 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 443 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 444 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 445 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 446 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 447 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 448 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 449 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 450 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 451 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 452 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 453 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 454 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 455 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 456 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 457 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 458 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 459 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 460 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 461 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 462 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 463 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 464 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 465 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 466 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 467 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 468 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 469 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 470 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 471 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 472 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 473 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 474 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 475 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 476 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 477 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 478 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 479 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 480 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 481 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 482 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 483 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 484 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 485 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 486 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 487 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 488 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 489 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 490 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 491 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 492 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 493 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 494 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 495 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 496 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 497 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 498 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 1 card in position 499 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 0 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 1 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 2 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 3 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 4 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 5 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 6 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 7 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 8 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 9 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 10 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 11 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 12 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 13 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 14 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 15 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 16 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 17 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 18 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 19 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 20 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 21 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 22 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 23 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 24 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 25 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 26 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 27 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 28 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 29 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 30 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 31 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 32 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 33 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 34 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 35 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 36 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 37 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 38 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 39 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 40 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 41 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 42 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 43 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 44 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 45 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 46 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 47 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 48 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 49 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 50 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 51 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 52 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 53 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 54 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 55 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 56 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 57 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 58 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 59 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 60 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 61 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 62 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 63 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 64 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 65 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 66 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 67 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 68 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 69 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 70 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 71 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 72 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 73 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 74 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 75 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 76 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 77 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 78 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 79 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 80 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 81 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 82 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 83 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 84 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 85 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 86 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 87 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 88 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 89 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 90 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 91 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 92 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 93 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 94 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 95 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 96 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 97 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 98 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 99 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 100 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 101 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 102 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 103 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 104 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 105 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 106 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 107 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 108 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 109 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 110 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 111 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 112 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 113 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 114 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 115 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 116 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 117 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 118 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 119 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 120 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 121 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 122 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 123 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 124 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 125 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 126 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 127 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 128 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 129 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 130 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 131 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 132 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 133 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 134 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 135 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 136 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 137 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 138 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 139 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 140 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 141 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 142 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 143 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 144 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 145 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 146 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 147 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 148 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 149 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 150 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 151 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 152 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 153 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 154 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 155 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 156 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 157 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 158 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 159 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 160 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 161 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 162 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 163 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 164 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 165 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 166 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 167 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 168 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 169 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 170 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 171 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 172 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 173 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 174 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 175 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 176 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 177 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 178 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 179 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 180 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 181 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 182 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 183 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 184 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 185 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 186 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 187 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 188 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 189 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 190 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 191 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 192 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 193 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 194 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 195 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 196 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 197 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 198 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 199 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 200 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 201 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 202 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 203 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 204 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 205 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 206 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 207 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 208 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 209 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 210 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 211 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 212 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 213 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 214 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 215 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 216 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 217 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 218 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 219 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 220 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 221 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 222 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 223 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 224 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 225 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 226 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 227 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 228 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 229 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 230 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 231 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 232 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 233 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 234 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 235 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 236 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 237 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 238 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 239 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 240 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 241 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 242 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 243 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 244 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 245 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 246 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 247 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 248 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 249 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 250 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 251 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 252 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 253 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 254 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 255 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 256 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 257 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 258 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 259 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 260 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 261 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 262 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 263 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 264 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 265 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 266 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 267 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 268 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 269 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 270 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 271 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 272 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 273 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 274 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 275 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 276 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 277 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 278 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 279 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 280 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 281 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 282 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 283 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 284 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 285 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 286 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 287 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 288 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 289 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 290 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 291 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 292 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 293 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 294 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 295 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 296 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 297 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 298 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 299 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 300 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 301 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 302 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 303 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 304 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 305 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 306 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 307 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 308 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 309 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 310 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 311 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 312 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 313 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 314 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 315 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 316 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 317 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 318 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 319 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 320 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 321 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 322 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 323 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 324 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 325 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 326 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 327 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 328 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 329 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 330 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 331 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 332 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 333 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 334 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 335 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 336 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 337 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 338 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 339 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 340 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 341 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 342 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 343 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 344 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 345 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 346 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 347 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 348 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 349 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 350 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 351 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 352 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 353 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 354 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 355 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 356 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 357 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 358 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 359 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 360 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 361 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 362 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 363 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 364 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 365 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 366 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 367 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 368 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 369 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 370 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 371 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 372 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 373 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 374 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 375 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 376 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 377 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 378 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 379 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 380 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 381 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 382 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 383 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 384 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 385 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 386 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 387 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 388 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 389 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 390 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 391 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 392 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 393 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 394 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 395 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 396 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 397 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 398 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 399 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 400 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 401 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 402 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 403 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 404 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 405 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 406 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 407 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 408 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 409 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 410 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 411 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 412 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 413 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 414 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 415 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 416 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 417 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 418 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 419 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 420 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 421 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 422 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 423 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 424 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 425 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 426 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 427 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 428 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 429 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 430 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 431 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 432 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 433 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 434 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 435 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 436 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 437 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 438 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 439 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 440 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 441 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 442 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 443 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 444 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 445 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 446 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 447 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 448 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 449 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 450 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 451 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 452 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 453 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 454 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 455 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 456 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 457 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 458 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 459 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 460 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 461 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 462 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 463 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 464 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 465 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 466 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 467 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 468 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 469 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 470 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 471 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 472 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 473 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 474 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 475 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 476 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 477 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 478 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 479 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 480 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 481 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 482 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 483 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 484 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 485 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 486 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 487 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 488 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 489 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 490 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 491 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 492 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 493 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 494 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 495 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 496 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 497 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 498 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 2 card in position 499 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 0 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 1 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 2 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 3 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 4 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 5 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 6 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 7 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 8 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 9 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 10 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 11 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 12 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 13 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 14 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 15 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 16 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 17 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 18 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 19 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 20 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 21 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 22 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 23 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 24 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 25 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 26 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 27 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 28 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 29 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 30 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 31 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 32 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 33 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 34 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 35 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 36 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 37 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 38 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 39 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 40 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 41 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 42 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 43 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 44 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 45 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 46 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 47 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 48 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 49 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 50 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 51 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 52 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 53 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 54 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 55 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 56 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 57 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 58 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 59 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 60 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 61 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 62 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 63 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 64 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 65 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 66 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 67 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 68 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 69 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 70 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 71 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 72 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 73 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 74 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 75 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 76 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 77 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 78 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 79 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 80 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 81 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 82 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 83 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 84 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 85 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 86 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 87 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 88 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 89 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 90 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 91 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 92 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 93 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 94 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 95 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 96 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 97 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 98 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 99 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 100 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 101 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 102 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 103 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 104 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 105 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 106 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 107 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 108 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 109 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 110 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 111 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 112 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 113 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 114 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 115 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 116 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 117 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 118 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 119 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 120 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 121 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 122 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 123 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 124 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 125 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 126 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 127 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 128 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 129 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 130 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 131 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 132 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 133 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 134 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 135 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 136 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 137 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 138 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 139 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 140 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 141 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 142 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 143 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 144 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 145 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 146 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 147 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 148 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 149 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 150 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 151 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 152 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 153 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 154 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 155 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 156 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 157 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 158 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 159 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 160 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 161 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 162 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 163 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 164 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 165 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 166 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 167 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 168 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 169 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 170 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 171 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 172 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 173 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 174 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 175 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 176 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 177 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 178 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 179 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 180 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 181 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 182 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 183 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 184 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 185 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 186 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 187 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 188 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 189 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 190 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 191 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 192 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 193 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 194 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 195 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 196 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 197 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 198 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 199 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 200 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 201 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 202 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 203 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 204 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 205 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 206 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 207 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 208 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 209 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 210 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 211 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 212 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 213 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 214 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 215 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 216 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 217 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 218 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 219 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 220 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 221 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 222 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 223 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 224 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 225 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 226 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 227 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 228 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 229 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 230 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 231 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 232 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 233 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 234 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 235 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 236 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 237 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 238 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 239 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 240 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 241 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 242 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 243 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 244 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 245 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 246 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 247 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 248 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 249 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 250 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 251 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 252 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 253 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 254 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 255 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 256 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 257 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 258 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 259 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 260 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 261 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 262 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 263 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 264 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 265 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 266 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 267 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 268 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 269 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 270 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 271 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 272 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 273 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 274 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 275 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 276 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 277 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 278 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 279 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 280 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 281 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 282 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 283 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 284 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 285 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 286 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 287 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 288 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 289 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 290 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 291 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 292 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 293 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 294 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 295 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 296 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 297 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 298 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 299 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 300 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 301 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 302 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 303 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 304 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 305 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 306 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 307 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 308 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 309 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 310 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 311 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 312 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 313 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 314 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 315 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 316 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 317 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 318 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 319 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 320 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 321 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 322 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 323 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 324 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 325 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 326 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 327 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 328 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 329 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 330 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 331 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 332 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 333 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 334 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 335 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 336 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 337 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 338 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 339 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 340 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 341 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 342 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 343 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 344 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 345 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 346 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 347 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 348 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 349 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 350 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 351 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 352 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 353 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 354 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 355 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 356 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 357 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 358 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 359 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 360 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 361 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 362 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 363 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 364 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 365 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 366 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 367 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 368 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 369 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 370 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 371 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 372 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 373 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 374 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 375 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 376 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 377 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 378 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 379 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 380 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 381 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 382 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 383 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 384 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 385 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 386 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 387 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 388 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 389 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 390 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 391 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 392 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 393 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 394 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 395 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 396 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 397 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 398 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 399 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 400 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 401 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 402 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 403 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 404 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 405 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 406 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 407 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 408 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 409 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 410 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 411 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 412 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 413 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 414 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 415 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 416 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 417 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 418 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 419 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 420 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 421 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 422 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 423 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 424 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 425 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 426 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 427 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 428 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 429 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 430 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 431 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 432 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 433 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 434 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 435 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 436 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 437 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 438 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 439 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 440 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 441 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 442 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 443 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 444 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 445 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 446 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 447 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 448 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 449 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 450 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 451 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 452 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 453 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 454 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 455 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 456 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 457 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 458 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 459 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 460 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 461 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 462 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 463 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 464 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 465 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 466 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 467 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 468 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 469 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 470 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 471 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 472 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 473 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 474 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 475 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 476 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 477 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 478 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 479 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 480 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 481 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 482 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 483 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 484 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 485 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 486 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 487 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 488 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 489 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 490 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 491 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 492 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 493 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 494 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 495 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 496 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 497 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 498 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player 3 card in position 499 is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 2000; total passed 2000
+[0m
+[Sun Oct 28 19:57:47 2018] [RESULTS unittest4] ----------------------------------------------
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 1; total passed 1
+[0m
+[Sun Oct 28 19:57:47 2018] [Ending unittest4] - Testing the  Function in Dominion.c
+
+
+[Sun Oct 28 19:57:47 2018] [Starting cardtest1] - Testing the smithy card in Dominion.c
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player Hand count is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - cardEffect returns correct return code of 0[0m
+[31m[Sun Oct 28 19:57:47 2018] [FAILED] - 4 != 2 Player Hand count is 2[0m
+[31m[Sun Oct 28 19:57:47 2018] [FAILED] - Total tests 3; total passed 2
+[0m
+[Sun Oct 28 19:57:47 2018] [cardtest1 RESULTS] ---------------------------------------------
+[31m[Sun Oct 28 19:57:47 2018] [FAILED] - Total tests 1; total passed 0
+[0m
+[Sun Oct 28 19:57:47 2018] [Ending cardtest1] - Testing the smithy cardin Dominion.c
+
+
+[Sun Oct 28 19:57:47 2018] [Starting cardtest2] - Testing the adventurer card in Dominion.c
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player Hand count is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - cardEffect returns correct return code of 0[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Top Card is Copper[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Top Card is Copper[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 4; total passed 4
+[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player Hand count is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - cardEffect returns correct return code of 0[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Top Card is silver[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Top Card is silver[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 4; total passed 4
+[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player Hand count is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - cardEffect returns correct return code of 0[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Top Card is silver[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Top Card is silver[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Total tests 4; total passed 4
+[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - Player Hand count is 1[0m
+[32m[Sun Oct 28 19:57:47 2018] [PASSED] - cardEffect returns correct return code of 0[0m
+[31m[Sun Oct 28 19:57:47 2018] [FAILED] - 497 != 2 Player should only have 2 cards (the treasure cards drawn)[0m
+[31m[Sun Oct 28 19:57:47 2018] [FAILED] - Total tests 3; total passed 2
+[0m
+[Sun Oct 28 19:57:47 2018] [cardtest2 RESULTS] ---------------------------------------------
+[31m[Sun Oct 28 19:57:47 2018] [FAILED] - Total tests 4; total passed 3
+[0m
+[Sun Oct 28 19:57:47 2018] [Ending cardtest2] - Testing the adventurer card in Dominion.c
+
+
+[Sun Oct 28 19:57:48 2018] [Starting cardtest3] - Testing the council room card in Dominion.c
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - Player Hand count is 1[0m
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - State numbuy is 0 before card[0m
+[31m[Sun Oct 28 19:57:48 2018] [FAILED] - 1 != 0 cardEffect returns correct return code of 0[0m
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - State numbuy is 1 after card[0m
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - Player Hand count is 0[0m
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - Player2 Hand count is 1[0m
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - Player3 Hand count is 1[0m
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - Player4 Hand count is 1[0m
+[31m[Sun Oct 28 19:57:48 2018] [FAILED] - Total tests 8; total passed 7
+[0m
+[Sun Oct 28 19:57:48 2018] [cardtest3 RESULTS] ---------------------------------------------
+[31m[Sun Oct 28 19:57:48 2018] [FAILED] - Total tests 1; total passed 0
+[0m
+[Sun Oct 28 19:57:48 2018] [Ending cardtest3] - Testing the council room card in Dominion.c
+
+
+[Sun Oct 28 19:57:48 2018] [Starting cardtest4] - Testing the Gardens card in Dominion.c
+[32m[Sun Oct 28 19:57:48 2018] [PASSED] - Player Hand count is 1[0m
+[31m[Sun Oct 28 19:57:48 2018] [FAILED] - -2 != -1 cardEffect returns correct return code of -1[0m
+[31m[Sun Oct 28 19:57:48 2018] [FAILED] - Total tests 2; total passed 1
+[0m
+[Sun Oct 28 19:57:48 2018] [cardtest4 RESULTS] ---------------------------------------------
+[31m[Sun Oct 28 19:57:48 2018] [FAILED] - Total tests 1; total passed 0
+[0m
+[Sun Oct 28 19:57:48 2018] [Ending cardtest4] - Testing the Gardens card in Dominion.c
+
+
+File 'unittest1.c'
+Lines executed:100.00% of 15
+Creating 'unittest1.c.gcov'
+
+File 'unittest2.c'
+Lines executed:100.00% of 43
+Creating 'unittest2.c.gcov'
+
+File 'unittest3.c'
+Lines executed:100.00% of 45
+Creating 'unittest3.c.gcov'
+
+File 'unittest4.c'
+Lines executed:100.00% of 18
+Creating 'unittest4.c.gcov'
+
+File 'cardtest1.c'
+Lines executed:100.00% of 29
+Creating 'cardtest1.c.gcov'
+
+File 'cardtest2.c'
+Lines executed:100.00% of 127
+Creating 'cardtest2.c.gcov'
+
+File 'cardtest3.c'
+Lines executed:100.00% of 44
+Creating 'cardtest3.c.gcov'
+
+File 'cardtest4.c'
+Lines executed:100.00% of 27
+Creating 'cardtest4.c.gcov'
+
+File 'dominion.c'
+Lines executed:15.80% of 614
+Creating 'dominion.c.gcov'
+
