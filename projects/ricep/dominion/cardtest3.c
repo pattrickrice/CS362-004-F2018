@@ -83,5 +83,7 @@ int testCouncilRoom()
 
     totalTests++;
     passedTests += assertEqual(state->handCount[player + 3], 1, "Player4 Hand count is 1");
+    free(state);
+
     return printResults(totalTests, passedTests);
 }

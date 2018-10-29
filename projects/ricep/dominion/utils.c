@@ -12,14 +12,14 @@ int assertTrue(int result, char testName[])
     if (result == 0)
     {
         size_t resultSize = strlen(" - [FAILED]");
-        char buffer[size + resultSize];
+        char buffer[size + resultSize + 100];
         sprintf(buffer, "%s - %s", "[FAILED]", testName);
         logE(buffer);
         return 0;
     } else
     {
         size_t resultSize = strlen(" - [PASSED]");
-        char buffer[size + resultSize];
+        char buffer[size + resultSize + 100];
         sprintf(buffer, "%s - %s", "[PASSED]", testName);
         logS(buffer);
         return 1;

@@ -79,7 +79,7 @@ int testDraw2Copper()
     passedTests += assertEqual(
             state->hand[player][state->handCount[player] - 2], copper,
             "Top Card is Copper");
-
+    free(state);
     return printResults(totalTests, passedTests);
 }
 
@@ -135,6 +135,8 @@ int testDraw2Silver()
             state->hand[player][state->handCount[player] - 2], silver,
             "Top Card is silver");
 
+    free(state);
+
     return printResults(totalTests, passedTests);
 }
 
@@ -189,7 +191,7 @@ int testDraw2Gold()
     passedTests += assertEqual(
             state->hand[player][state->handCount[player] - 2], gold,
             "Top Card is silver");
-
+    free(state);
     return printResults(totalTests, passedTests);
 }
 
@@ -242,5 +244,6 @@ int testCorrectHandCount()
             state->handCount[player], 2,
             "Player should only have 2 cards (the treasure cards drawn)");
 
+    free(state);
     return printResults(totalTests, passedTests);
 }
