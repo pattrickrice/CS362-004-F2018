@@ -6,9 +6,16 @@ CMakeFiles/playdom.dir/dominion.c.o: ../dominion.h
 CMakeFiles/playdom.dir/dominion.c.o: ../dominion_helpers.h
 CMakeFiles/playdom.dir/dominion.c.o: ../rngs.h
 
+CMakeFiles/playdom.dir/interface.c.o: ../dominion.h
+CMakeFiles/playdom.dir/interface.c.o: ../interface.c
+CMakeFiles/playdom.dir/interface.c.o: ../interface.h
+CMakeFiles/playdom.dir/interface.c.o: ../rngs.h
+
 CMakeFiles/playdom.dir/playdom.c.o: ../dominion.h
 CMakeFiles/playdom.dir/playdom.c.o: ../playdom.c
 CMakeFiles/playdom.dir/playdom.c.o: ../rngs.h
+
+CMakeFiles/playdom.dir/randomtestcard1.c.o: ../randomtestcard1.c
 
 CMakeFiles/playdom.dir/rngs.c.o: ../rngs.c
 CMakeFiles/playdom.dir/rngs.c.o: ../rngs.h

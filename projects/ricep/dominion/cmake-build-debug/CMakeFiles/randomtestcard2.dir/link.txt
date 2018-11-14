@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/randomtestcard2.dir/randomtestcard2.c.o CMakeFiles/randomtestcard2.dir/dominion.c.o CMakeFiles/randomtestcard2.dir/rngs.c.o  -o randomtestcard2 

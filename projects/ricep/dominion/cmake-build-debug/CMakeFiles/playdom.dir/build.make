@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,22 +57,9 @@ include CMakeFiles/playdom.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/playdom.dir/flags.make
 
-CMakeFiles/playdom.dir/playdom.c.o: CMakeFiles/playdom.dir/flags.make
-CMakeFiles/playdom.dir/playdom.c.o: ../playdom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/playdom.dir/playdom.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playdom.dir/playdom.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c
-
-CMakeFiles/playdom.dir/playdom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playdom.dir/playdom.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c > CMakeFiles/playdom.dir/playdom.c.i
-
-CMakeFiles/playdom.dir/playdom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playdom.dir/playdom.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c -o CMakeFiles/playdom.dir/playdom.c.s
-
 CMakeFiles/playdom.dir/dominion.c.o: CMakeFiles/playdom.dir/flags.make
 CMakeFiles/playdom.dir/dominion.c.o: ../dominion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/playdom.dir/dominion.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/playdom.dir/dominion.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playdom.dir/dominion.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c
 
 CMakeFiles/playdom.dir/dominion.c.i: cmake_force
@@ -83,9 +70,35 @@ CMakeFiles/playdom.dir/dominion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playdom.dir/dominion.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c -o CMakeFiles/playdom.dir/dominion.c.s
 
+CMakeFiles/playdom.dir/interface.c.o: CMakeFiles/playdom.dir/flags.make
+CMakeFiles/playdom.dir/interface.c.o: ../interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/playdom.dir/interface.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playdom.dir/interface.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.c
+
+CMakeFiles/playdom.dir/interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playdom.dir/interface.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.c > CMakeFiles/playdom.dir/interface.c.i
+
+CMakeFiles/playdom.dir/interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playdom.dir/interface.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.c -o CMakeFiles/playdom.dir/interface.c.s
+
+CMakeFiles/playdom.dir/playdom.c.o: CMakeFiles/playdom.dir/flags.make
+CMakeFiles/playdom.dir/playdom.c.o: ../playdom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/playdom.dir/playdom.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playdom.dir/playdom.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c
+
+CMakeFiles/playdom.dir/playdom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playdom.dir/playdom.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c > CMakeFiles/playdom.dir/playdom.c.i
+
+CMakeFiles/playdom.dir/playdom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playdom.dir/playdom.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c -o CMakeFiles/playdom.dir/playdom.c.s
+
 CMakeFiles/playdom.dir/rngs.c.o: CMakeFiles/playdom.dir/flags.make
 CMakeFiles/playdom.dir/rngs.c.o: ../rngs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/playdom.dir/rngs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/playdom.dir/rngs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playdom.dir/rngs.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c
 
 CMakeFiles/playdom.dir/rngs.c.i: cmake_force
@@ -96,21 +109,38 @@ CMakeFiles/playdom.dir/rngs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playdom.dir/rngs.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c -o CMakeFiles/playdom.dir/rngs.c.s
 
+CMakeFiles/playdom.dir/randomtestcard1.c.o: CMakeFiles/playdom.dir/flags.make
+CMakeFiles/playdom.dir/randomtestcard1.c.o: ../randomtestcard1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/playdom.dir/randomtestcard1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/playdom.dir/randomtestcard1.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard1.c
+
+CMakeFiles/playdom.dir/randomtestcard1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/playdom.dir/randomtestcard1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard1.c > CMakeFiles/playdom.dir/randomtestcard1.c.i
+
+CMakeFiles/playdom.dir/randomtestcard1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/playdom.dir/randomtestcard1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard1.c -o CMakeFiles/playdom.dir/randomtestcard1.c.s
+
 # Object files for target playdom
 playdom_OBJECTS = \
-"CMakeFiles/playdom.dir/playdom.c.o" \
 "CMakeFiles/playdom.dir/dominion.c.o" \
-"CMakeFiles/playdom.dir/rngs.c.o"
+"CMakeFiles/playdom.dir/interface.c.o" \
+"CMakeFiles/playdom.dir/playdom.c.o" \
+"CMakeFiles/playdom.dir/rngs.c.o" \
+"CMakeFiles/playdom.dir/randomtestcard1.c.o"
 
 # External object files for target playdom
 playdom_EXTERNAL_OBJECTS =
 
-playdom: CMakeFiles/playdom.dir/playdom.c.o
 playdom: CMakeFiles/playdom.dir/dominion.c.o
+playdom: CMakeFiles/playdom.dir/interface.c.o
+playdom: CMakeFiles/playdom.dir/playdom.c.o
 playdom: CMakeFiles/playdom.dir/rngs.c.o
+playdom: CMakeFiles/playdom.dir/randomtestcard1.c.o
 playdom: CMakeFiles/playdom.dir/build.make
 playdom: CMakeFiles/playdom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable playdom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable playdom"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playdom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,10 +6,17 @@ CMakeFiles/playdom.dir/dominion.c.o
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion_helpers.h
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
+CMakeFiles/playdom.dir/interface.c.o
+ /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+ /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.c
+ /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.h
+ /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
 CMakeFiles/playdom.dir/playdom.c.o
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
+CMakeFiles/playdom.dir/randomtestcard1.c.o
+ /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard1.c
 CMakeFiles/playdom.dir/rngs.c.o
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c
  /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h

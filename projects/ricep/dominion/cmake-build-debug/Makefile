@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/c
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,71 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named interface.o
-
-# Build rule for target.
-interface.o: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 interface.o
-.PHONY : interface.o
-
-# fast build rule for target.
-interface.o/fast:
-	$(MAKE) -f CMakeFiles/interface.o.dir/build.make CMakeFiles/interface.o.dir/build
-.PHONY : interface.o/fast
-
-#=============================================================================
-# Target rules for targets named player
-
-# Build rule for target.
-player: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 player
-.PHONY : player
-
-# fast build rule for target.
-player/fast:
-	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/build
-.PHONY : player/fast
-
-#=============================================================================
-# Target rules for targets named rngs.o
-
-# Build rule for target.
-rngs.o: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rngs.o
-.PHONY : rngs.o
-
-# fast build rule for target.
-rngs.o/fast:
-	$(MAKE) -f CMakeFiles/rngs.o.dir/build.make CMakeFiles/rngs.o.dir/build
-.PHONY : rngs.o/fast
-
-#=============================================================================
-# Target rules for targets named dominion.o
-
-# Build rule for target.
-dominion.o: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dominion.o
-.PHONY : dominion.o
-
-# fast build rule for target.
-dominion.o/fast:
-	$(MAKE) -f CMakeFiles/dominion.o.dir/build.make CMakeFiles/dominion.o.dir/build
-.PHONY : dominion.o/fast
-
-#=============================================================================
-# Target rules for targets named testBuyCard
-
-# Build rule for target.
-testBuyCard: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testBuyCard
-.PHONY : testBuyCard
-
-# fast build rule for target.
-testBuyCard/fast:
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/build
-.PHONY : testBuyCard/fast
-
-#=============================================================================
 # Target rules for targets named playdom
 
 # Build rule for target.
@@ -189,44 +124,43 @@ playdom/fast:
 .PHONY : playdom/fast
 
 #=============================================================================
-# Target rules for targets named badTestDrawCard
+# Target rules for targets named randomtestcard1
 
 # Build rule for target.
-badTestDrawCard: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 badTestDrawCard
-.PHONY : badTestDrawCard
+randomtestcard1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 randomtestcard1
+.PHONY : randomtestcard1
 
 # fast build rule for target.
-badTestDrawCard/fast:
-	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/build
-.PHONY : badTestDrawCard/fast
+randomtestcard1/fast:
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/build
+.PHONY : randomtestcard1/fast
 
-badTestDrawCard.o: badTestDrawCard.c.o
+#=============================================================================
+# Target rules for targets named randomtestcard3
 
-.PHONY : badTestDrawCard.o
+# Build rule for target.
+randomtestcard3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 randomtestcard3
+.PHONY : randomtestcard3
 
-# target to build an object file
-badTestDrawCard.c.o:
-	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.o
-.PHONY : badTestDrawCard.c.o
+# fast build rule for target.
+randomtestcard3/fast:
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/build
+.PHONY : randomtestcard3/fast
 
-badTestDrawCard.i: badTestDrawCard.c.i
+#=============================================================================
+# Target rules for targets named randomtestcard2
 
-.PHONY : badTestDrawCard.i
+# Build rule for target.
+randomtestcard2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 randomtestcard2
+.PHONY : randomtestcard2
 
-# target to preprocess a source file
-badTestDrawCard.c.i:
-	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.i
-.PHONY : badTestDrawCard.c.i
-
-badTestDrawCard.s: badTestDrawCard.c.s
-
-.PHONY : badTestDrawCard.s
-
-# target to generate assembly for a file
-badTestDrawCard.c.s:
-	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.s
-.PHONY : badTestDrawCard.c.s
+# fast build rule for target.
+randomtestcard2/fast:
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/build
+.PHONY : randomtestcard2/fast
 
 dominion.o: dominion.c.o
 
@@ -234,9 +168,10 @@ dominion.o: dominion.c.o
 
 # target to build an object file
 dominion.c.o:
-	$(MAKE) -f CMakeFiles/dominion.o.dir/build.make CMakeFiles/dominion.o.dir/dominion.c.o
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/dominion.c.o
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/dominion.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/dominion.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.o
 .PHONY : dominion.c.o
 
 dominion.i: dominion.c.i
@@ -245,9 +180,10 @@ dominion.i: dominion.c.i
 
 # target to preprocess a source file
 dominion.c.i:
-	$(MAKE) -f CMakeFiles/dominion.o.dir/build.make CMakeFiles/dominion.o.dir/dominion.c.i
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/dominion.c.i
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/dominion.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/dominion.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.i
 .PHONY : dominion.c.i
 
 dominion.s: dominion.c.s
@@ -256,9 +192,10 @@ dominion.s: dominion.c.s
 
 # target to generate assembly for a file
 dominion.c.s:
-	$(MAKE) -f CMakeFiles/dominion.o.dir/build.make CMakeFiles/dominion.o.dir/dominion.c.s
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/dominion.c.s
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/dominion.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/dominion.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.s
 .PHONY : dominion.c.s
 
 interface.o: interface.c.o
@@ -267,7 +204,7 @@ interface.o: interface.c.o
 
 # target to build an object file
 interface.c.o:
-	$(MAKE) -f CMakeFiles/interface.o.dir/build.make CMakeFiles/interface.o.dir/interface.c.o
+	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/interface.c.o
 .PHONY : interface.c.o
 
 interface.i: interface.c.i
@@ -276,7 +213,7 @@ interface.i: interface.c.i
 
 # target to preprocess a source file
 interface.c.i:
-	$(MAKE) -f CMakeFiles/interface.o.dir/build.make CMakeFiles/interface.o.dir/interface.c.i
+	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/interface.c.i
 .PHONY : interface.c.i
 
 interface.s: interface.c.s
@@ -285,7 +222,7 @@ interface.s: interface.c.s
 
 # target to generate assembly for a file
 interface.c.s:
-	$(MAKE) -f CMakeFiles/interface.o.dir/build.make CMakeFiles/interface.o.dir/interface.c.s
+	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/interface.c.s
 .PHONY : interface.c.s
 
 playdom.o: playdom.c.o
@@ -315,32 +252,89 @@ playdom.c.s:
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/playdom.c.s
 .PHONY : playdom.c.s
 
-player.o: player.c.o
+randomtestcard1.o: randomtestcard1.c.o
 
-.PHONY : player.o
+.PHONY : randomtestcard1.o
 
 # target to build an object file
-player.c.o:
-	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/player.c.o
-.PHONY : player.c.o
+randomtestcard1.c.o:
+	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/randomtestcard1.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/randomtestcard1.c.o
+.PHONY : randomtestcard1.c.o
 
-player.i: player.c.i
+randomtestcard1.i: randomtestcard1.c.i
 
-.PHONY : player.i
+.PHONY : randomtestcard1.i
 
 # target to preprocess a source file
-player.c.i:
-	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/player.c.i
-.PHONY : player.c.i
+randomtestcard1.c.i:
+	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/randomtestcard1.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/randomtestcard1.c.i
+.PHONY : randomtestcard1.c.i
 
-player.s: player.c.s
+randomtestcard1.s: randomtestcard1.c.s
 
-.PHONY : player.s
+.PHONY : randomtestcard1.s
 
 # target to generate assembly for a file
-player.c.s:
-	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/player.c.s
-.PHONY : player.c.s
+randomtestcard1.c.s:
+	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/randomtestcard1.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/randomtestcard1.c.s
+.PHONY : randomtestcard1.c.s
+
+randomtestcard2.o: randomtestcard2.c.o
+
+.PHONY : randomtestcard2.o
+
+# target to build an object file
+randomtestcard2.c.o:
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/randomtestcard2.c.o
+.PHONY : randomtestcard2.c.o
+
+randomtestcard2.i: randomtestcard2.c.i
+
+.PHONY : randomtestcard2.i
+
+# target to preprocess a source file
+randomtestcard2.c.i:
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/randomtestcard2.c.i
+.PHONY : randomtestcard2.c.i
+
+randomtestcard2.s: randomtestcard2.c.s
+
+.PHONY : randomtestcard2.s
+
+# target to generate assembly for a file
+randomtestcard2.c.s:
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/randomtestcard2.c.s
+.PHONY : randomtestcard2.c.s
+
+randomtestcard3.o: randomtestcard3.c.o
+
+.PHONY : randomtestcard3.o
+
+# target to build an object file
+randomtestcard3.c.o:
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/randomtestcard3.c.o
+.PHONY : randomtestcard3.c.o
+
+randomtestcard3.i: randomtestcard3.c.i
+
+.PHONY : randomtestcard3.i
+
+# target to preprocess a source file
+randomtestcard3.c.i:
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/randomtestcard3.c.i
+.PHONY : randomtestcard3.c.i
+
+randomtestcard3.s: randomtestcard3.c.s
+
+.PHONY : randomtestcard3.s
+
+# target to generate assembly for a file
+randomtestcard3.c.s:
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/randomtestcard3.c.s
+.PHONY : randomtestcard3.c.s
 
 rngs.o: rngs.c.o
 
@@ -348,9 +342,10 @@ rngs.o: rngs.c.o
 
 # target to build an object file
 rngs.c.o:
-	$(MAKE) -f CMakeFiles/rngs.o.dir/build.make CMakeFiles/rngs.o.dir/rngs.c.o
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/rngs.c.o
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/rngs.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/rngs.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.o
 .PHONY : rngs.c.o
 
 rngs.i: rngs.c.i
@@ -359,9 +354,10 @@ rngs.i: rngs.c.i
 
 # target to preprocess a source file
 rngs.c.i:
-	$(MAKE) -f CMakeFiles/rngs.o.dir/build.make CMakeFiles/rngs.o.dir/rngs.c.i
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/rngs.c.i
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/rngs.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/rngs.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.i
 .PHONY : rngs.c.i
 
 rngs.s: rngs.c.s
@@ -370,37 +366,11 @@ rngs.s: rngs.c.s
 
 # target to generate assembly for a file
 rngs.c.s:
-	$(MAKE) -f CMakeFiles/rngs.o.dir/build.make CMakeFiles/rngs.o.dir/rngs.c.s
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/rngs.c.s
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/rngs.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/rngs.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.s
 .PHONY : rngs.c.s
-
-testBuyCard.o: testBuyCard.c.o
-
-.PHONY : testBuyCard.o
-
-# target to build an object file
-testBuyCard.c.o:
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/testBuyCard.c.o
-.PHONY : testBuyCard.c.o
-
-testBuyCard.i: testBuyCard.c.i
-
-.PHONY : testBuyCard.i
-
-# target to preprocess a source file
-testBuyCard.c.i:
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/testBuyCard.c.i
-.PHONY : testBuyCard.c.i
-
-testBuyCard.s: testBuyCard.c.s
-
-.PHONY : testBuyCard.s
-
-# target to generate assembly for a file
-testBuyCard.c.s:
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/testBuyCard.c.s
-.PHONY : testBuyCard.c.s
 
 # Help Target
 help:
@@ -409,17 +379,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... interface.o"
-	@echo "... player"
-	@echo "... rngs.o"
 	@echo "... edit_cache"
-	@echo "... dominion.o"
-	@echo "... testBuyCard"
 	@echo "... playdom"
-	@echo "... badTestDrawCard"
-	@echo "... badTestDrawCard.o"
-	@echo "... badTestDrawCard.i"
-	@echo "... badTestDrawCard.s"
+	@echo "... randomtestcard1"
+	@echo "... randomtestcard3"
+	@echo "... randomtestcard2"
 	@echo "... dominion.o"
 	@echo "... dominion.i"
 	@echo "... dominion.s"
@@ -429,15 +393,18 @@ help:
 	@echo "... playdom.o"
 	@echo "... playdom.i"
 	@echo "... playdom.s"
-	@echo "... player.o"
-	@echo "... player.i"
-	@echo "... player.s"
+	@echo "... randomtestcard1.o"
+	@echo "... randomtestcard1.i"
+	@echo "... randomtestcard1.s"
+	@echo "... randomtestcard2.o"
+	@echo "... randomtestcard2.i"
+	@echo "... randomtestcard2.s"
+	@echo "... randomtestcard3.o"
+	@echo "... randomtestcard3.i"
+	@echo "... randomtestcard3.s"
 	@echo "... rngs.o"
 	@echo "... rngs.i"
 	@echo "... rngs.s"
-	@echo "... testBuyCard.o"
-	@echo "... testBuyCard.i"
-	@echo "... testBuyCard.s"
 .PHONY : help
 
 

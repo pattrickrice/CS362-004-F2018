@@ -27,251 +27,11 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="interface.o">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/libinterface.o.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 interface.o"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="interface.o/fast">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/libinterface.o.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 interface.o/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="player">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/libplayer.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 player"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="player/fast">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/libplayer.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 player/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rngs.o">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/librngs.o.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rngs.o"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rngs.o/fast">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/librngs.o.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rngs.o/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="dominion.o">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/libdominion.o.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 dominion.o"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="dominion.o/fast">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/libdominion.o.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 dominion.o/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testBuyCard">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/testBuyCard" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 testBuyCard"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testBuyCard/fast">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/testBuyCard" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 testBuyCard/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -325,8 +85,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="badTestDrawCard">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/badTestDrawCard" prefix_auto="0" extension_auto="0"/>
+			<Target title="randomtestcard1">
+				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/randomtestcard1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -343,14 +103,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 badTestDrawCard"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomtestcard1"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="badTestDrawCard/fast">
-				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/badTestDrawCard" prefix_auto="0" extension_auto="0"/>
+			<Target title="randomtestcard1/fast">
+				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/randomtestcard1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -367,62 +127,157 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 badTestDrawCard/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomtestcard1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="randomtestcard3">
+				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/randomtestcard3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomtestcard3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="randomtestcard3/fast">
+				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/randomtestcard3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomtestcard3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="randomtestcard2">
+				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/randomtestcard2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomtestcard2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="randomtestcard2/fast">
+				<Option output="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/randomtestcard2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 randomtestcard2/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/badTestDrawCard.c">
-			<Option target="badTestDrawCard"/>
+		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/Makefile">
+			<Option target="playdom"/>
 		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c">
-			<Option target="dominion.o"/>
-			<Option target="testBuyCard"/>
 			<Option target="playdom"/>
+			<Option target="randomtestcard1"/>
+			<Option target="randomtestcard3"/>
+			<Option target="randomtestcard2"/>
 		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h">
-			<Option target="dominion.o"/>
-			<Option target="testBuyCard"/>
+			<Option target="playdom"/>
+			<Option target="randomtestcard1"/>
+			<Option target="randomtestcard3"/>
+			<Option target="randomtestcard2"/>
+		</Unit>
+		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion_helpers.h">
 			<Option target="playdom"/>
 		</Unit>
-		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.o">
-			<Option target="player"/>
-			<Option target="badTestDrawCard"/>
-		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.c">
-			<Option target="interface.o"/>
+			<Option target="playdom"/>
 		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.h">
-			<Option target="interface.o"/>
-		</Unit>
-		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.o">
-			<Option target="player"/>
+			<Option target="playdom"/>
 		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c">
 			<Option target="playdom"/>
 		</Unit>
-		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/player.c">
-			<Option target="player"/>
+		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard1.c">
+			<Option target="playdom"/>
+			<Option target="randomtestcard1"/>
+		</Unit>
+		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard2.c">
+			<Option target="randomtestcard2"/>
+		</Unit>
+		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard3.c">
+			<Option target="randomtestcard3"/>
 		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c">
-			<Option target="rngs.o"/>
-			<Option target="testBuyCard"/>
 			<Option target="playdom"/>
+			<Option target="randomtestcard1"/>
+			<Option target="randomtestcard3"/>
+			<Option target="randomtestcard2"/>
 		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h">
-			<Option target="rngs.o"/>
-			<Option target="testBuyCard"/>
 			<Option target="playdom"/>
-		</Unit>
-		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.o">
-			<Option target="player"/>
-			<Option target="dominion.o"/>
-			<Option target="badTestDrawCard"/>
-		</Unit>
-		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/testBuyCard.c">
-			<Option target="testBuyCard"/>
+			<Option target="randomtestcard1"/>
+			<Option target="randomtestcard3"/>
+			<Option target="randomtestcard2"/>
 		</Unit>
 		<Unit filename="/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

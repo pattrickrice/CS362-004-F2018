@@ -26,6 +26,26 @@ stdlib.h
 dominion.h
 /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
 
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.c
+stdio.h
+-
+math.h
+-
+assert.h
+-
+string.h
+-
+rngs.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
+interface.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.h
+dominion.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.h
+dominion.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
 /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c
 dominion.h
 /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
@@ -35,6 +55,8 @@ rngs.h
 /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
 stdlib.h
 -
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard1.c
 
 /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
 

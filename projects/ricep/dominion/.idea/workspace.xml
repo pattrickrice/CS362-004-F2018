@@ -2,13 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="dominion" targetName="rngs.o" />
-      <config projectName="dominion" targetName="badTestDrawCard" />
-      <config projectName="dominion" targetName="dominion.o" />
+      <config projectName="dominion" targetName="randomtestcard1" />
+      <config projectName="dominion" targetName="randomtestcard2" />
+      <config projectName="dominion" targetName="randomtestcard3" />
       <config projectName="dominion" targetName="playdom" />
-      <config projectName="dominion" targetName="testBuyCard" />
-      <config projectName="dominion" targetName="interface.o" />
-      <config projectName="dominion" targetName="player" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -17,7 +14,45 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0ded64-c7d8-4670-94d5-451c7551a311" name="Default Changelist" comment="" />
+    <list default="true" id="2c0ded64-c7d8-4670-94d5-451c7551a311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/randomtestcard1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomtestcard2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomtestcard3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/dominion.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/playdom.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dominion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dominion.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/playdom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dominion.gcda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dominion.gcno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dominion.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.gcno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playdom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playdom.gcda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playdom.gcno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/player" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.gcno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rngs.gcda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rngs.gcno" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rngs.o" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,22 +65,24 @@
     <session id="1206009189">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="c" value="549" />
           <entry key="h" value="26" />
-          <entry key="txt" value="223" />
+          <entry key="txt" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="3" />
+          <entry key="ObjectiveC" value="6" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -53,14 +90,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="6" />
-          <entry key="c" value="2" />
+          <entry key="c" value="5" />
           <entry key="h" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="223" />
+          <entry key="CMakeLists.txt" value="228" />
           <entry key="ObjectiveC" value="575" />
         </counts>
       </usages-collector>
@@ -69,28 +106,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/dominion.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="3852">
+              <caret line="214" selection-start-line="214" selection-end-line="214" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dominion.c">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="599" selection-start-line="599" selection-end-line="599" />
+            <state relative-caret-position="630">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomtestcard1.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomtestcard2.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomtestcard3.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dominion.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2412">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="2340">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
         </entry>
@@ -134,9 +186,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/dominion.h" />
         <option value="$PROJECT_DIR$/dominion.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -155,12 +207,30 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dominion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dominion" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,50 +250,32 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="badTestDrawCard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="badTestDrawCard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dominion" RUN_TARGET_NAME="badTestDrawCard">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dominion.o" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="dominion.o" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="interface.o" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="interface.o" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="playdom" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="0" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="playdom" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dominion" RUN_TARGET_NAME="playdom">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="player" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="player" CONFIG_NAME="Debug">
+    <configuration name="randomtestcard1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="randomtestcard1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dominion" RUN_TARGET_NAME="randomtestcard1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rngs.o" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="rngs.o" CONFIG_NAME="Debug">
+    <configuration name="randomtestcard2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="randomtestcard2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dominion" RUN_TARGET_NAME="randomtestcard2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testBuyCard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="testBuyCard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dominion" RUN_TARGET_NAME="testBuyCard">
+    <configuration name="randomtestcard3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dominion" TARGET_NAME="randomtestcard3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dominion" RUN_TARGET_NAME="randomtestcard3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.badTestDrawCard" />
-      <item itemvalue="Application.dominion.o" />
-      <item itemvalue="Application.interface.o" />
       <item itemvalue="Application.playdom" />
-      <item itemvalue="Application.player" />
-      <item itemvalue="Application.rngs.o" />
-      <item itemvalue="Application.testBuyCard" />
+      <item itemvalue="Application.randomtestcard1" />
+      <item itemvalue="Application.randomtestcard2" />
+      <item itemvalue="Application.randomtestcard3" />
     </list>
   </component>
   <component name="TaskManager">
@@ -236,32 +288,33 @@
       <workItem from="1539397409563" duration="4209000" />
       <workItem from="1539404628392" duration="3250000" />
       <workItem from="1541378078676" duration="6000" />
+      <workItem from="1542174460095" duration="8000" />
+      <workItem from="1542174475215" duration="311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7465000" />
+    <option name="totallyTimeSpent" value="7784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1080" height="1922" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25435203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25435203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32979912" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32979912" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32979912" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32979912" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32924107" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -278,17 +331,10 @@
     <entry file="file://$PROJECT_DIR$/betterTestDrawCard.c">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dominion.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2412">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="2340">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
@@ -299,10 +345,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/randomtestcard1.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomtestcard2.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomtestcard3.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dominion.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="599" selection-start-line="599" selection-end-line="599" />
+        <state relative-caret-position="3852">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -50,10 +50,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -65,198 +65,13 @@ CMAKE_SOURCE_DIR = /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion
 CMAKE_BINARY_DIR = /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/interface.o.dir
-
-# All Build rule for target.
-CMakeFiles/interface.o.dir/all:
-	$(MAKE) -f CMakeFiles/interface.o.dir/build.make CMakeFiles/interface.o.dir/depend
-	$(MAKE) -f CMakeFiles/interface.o.dir/build.make CMakeFiles/interface.o.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target interface.o"
-.PHONY : CMakeFiles/interface.o.dir/all
-
-# Include target in all.
-all: CMakeFiles/interface.o.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/interface.o.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/interface.o.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/interface.o.dir/rule
-
-# Convenience name for target.
-interface.o: CMakeFiles/interface.o.dir/rule
-
-.PHONY : interface.o
-
-# clean rule for target.
-CMakeFiles/interface.o.dir/clean:
-	$(MAKE) -f CMakeFiles/interface.o.dir/build.make CMakeFiles/interface.o.dir/clean
-.PHONY : CMakeFiles/interface.o.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/interface.o.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/player.dir
-
-# All Build rule for target.
-CMakeFiles/player.dir/all:
-	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/depend
-	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target player"
-.PHONY : CMakeFiles/player.dir/all
-
-# Include target in all.
-all: CMakeFiles/player.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/player.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/player.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/player.dir/rule
-
-# Convenience name for target.
-player: CMakeFiles/player.dir/rule
-
-.PHONY : player
-
-# clean rule for target.
-CMakeFiles/player.dir/clean:
-	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/clean
-.PHONY : CMakeFiles/player.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/player.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/rngs.o.dir
-
-# All Build rule for target.
-CMakeFiles/rngs.o.dir/all:
-	$(MAKE) -f CMakeFiles/rngs.o.dir/build.make CMakeFiles/rngs.o.dir/depend
-	$(MAKE) -f CMakeFiles/rngs.o.dir/build.make CMakeFiles/rngs.o.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target rngs.o"
-.PHONY : CMakeFiles/rngs.o.dir/all
-
-# Include target in all.
-all: CMakeFiles/rngs.o.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/rngs.o.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rngs.o.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/rngs.o.dir/rule
-
-# Convenience name for target.
-rngs.o: CMakeFiles/rngs.o.dir/rule
-
-.PHONY : rngs.o
-
-# clean rule for target.
-CMakeFiles/rngs.o.dir/clean:
-	$(MAKE) -f CMakeFiles/rngs.o.dir/build.make CMakeFiles/rngs.o.dir/clean
-.PHONY : CMakeFiles/rngs.o.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/rngs.o.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/dominion.o.dir
-
-# All Build rule for target.
-CMakeFiles/dominion.o.dir/all:
-	$(MAKE) -f CMakeFiles/dominion.o.dir/build.make CMakeFiles/dominion.o.dir/depend
-	$(MAKE) -f CMakeFiles/dominion.o.dir/build.make CMakeFiles/dominion.o.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target dominion.o"
-.PHONY : CMakeFiles/dominion.o.dir/all
-
-# Include target in all.
-all: CMakeFiles/dominion.o.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/dominion.o.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dominion.o.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/dominion.o.dir/rule
-
-# Convenience name for target.
-dominion.o: CMakeFiles/dominion.o.dir/rule
-
-.PHONY : dominion.o
-
-# clean rule for target.
-CMakeFiles/dominion.o.dir/clean:
-	$(MAKE) -f CMakeFiles/dominion.o.dir/build.make CMakeFiles/dominion.o.dir/clean
-.PHONY : CMakeFiles/dominion.o.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/dominion.o.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/testBuyCard.dir
-
-# All Build rule for target.
-CMakeFiles/testBuyCard.dir/all:
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/depend
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18 "Built target testBuyCard"
-.PHONY : CMakeFiles/testBuyCard.dir/all
-
-# Include target in all.
-all: CMakeFiles/testBuyCard.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/testBuyCard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testBuyCard.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/testBuyCard.dir/rule
-
-# Convenience name for target.
-testBuyCard: CMakeFiles/testBuyCard.dir/rule
-
-.PHONY : testBuyCard
-
-# clean rule for target.
-CMakeFiles/testBuyCard.dir/clean:
-	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/clean
-.PHONY : CMakeFiles/testBuyCard.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/testBuyCard.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/playdom.dir
 
 # All Build rule for target.
 CMakeFiles/playdom.dir/all:
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/depend
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10 "Built target playdom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target playdom"
 .PHONY : CMakeFiles/playdom.dir/all
 
 # Include target in all.
@@ -266,7 +81,7 @@ all: CMakeFiles/playdom.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/playdom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/playdom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/playdom.dir/rule
@@ -287,39 +102,113 @@ clean: CMakeFiles/playdom.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/badTestDrawCard.dir
+# Target rules for target CMakeFiles/randomtestcard1.dir
 
 # All Build rule for target.
-CMakeFiles/badTestDrawCard.dir/all:
-	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/depend
-	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target badTestDrawCard"
-.PHONY : CMakeFiles/badTestDrawCard.dir/all
+CMakeFiles/randomtestcard1.dir/all:
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/depend
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10 "Built target randomtestcard1"
+.PHONY : CMakeFiles/randomtestcard1.dir/all
 
 # Include target in all.
-all: CMakeFiles/badTestDrawCard.dir/all
+all: CMakeFiles/randomtestcard1.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/badTestDrawCard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/badTestDrawCard.dir/all
+CMakeFiles/randomtestcard1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/randomtestcard1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/badTestDrawCard.dir/rule
+.PHONY : CMakeFiles/randomtestcard1.dir/rule
 
 # Convenience name for target.
-badTestDrawCard: CMakeFiles/badTestDrawCard.dir/rule
+randomtestcard1: CMakeFiles/randomtestcard1.dir/rule
 
-.PHONY : badTestDrawCard
-
-# clean rule for target.
-CMakeFiles/badTestDrawCard.dir/clean:
-	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/clean
-.PHONY : CMakeFiles/badTestDrawCard.dir/clean
+.PHONY : randomtestcard1
 
 # clean rule for target.
-clean: CMakeFiles/badTestDrawCard.dir/clean
+CMakeFiles/randomtestcard1.dir/clean:
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/clean
+.PHONY : CMakeFiles/randomtestcard1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/randomtestcard1.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/randomtestcard3.dir
+
+# All Build rule for target.
+CMakeFiles/randomtestcard3.dir/all:
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/depend
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18 "Built target randomtestcard3"
+.PHONY : CMakeFiles/randomtestcard3.dir/all
+
+# Include target in all.
+all: CMakeFiles/randomtestcard3.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/randomtestcard3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/randomtestcard3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/randomtestcard3.dir/rule
+
+# Convenience name for target.
+randomtestcard3: CMakeFiles/randomtestcard3.dir/rule
+
+.PHONY : randomtestcard3
+
+# clean rule for target.
+CMakeFiles/randomtestcard3.dir/clean:
+	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/clean
+.PHONY : CMakeFiles/randomtestcard3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/randomtestcard3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/randomtestcard2.dir
+
+# All Build rule for target.
+CMakeFiles/randomtestcard2.dir/all:
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/depend
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14 "Built target randomtestcard2"
+.PHONY : CMakeFiles/randomtestcard2.dir/all
+
+# Include target in all.
+all: CMakeFiles/randomtestcard2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/randomtestcard2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/randomtestcard2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/randomtestcard2.dir/rule
+
+# Convenience name for target.
+randomtestcard2: CMakeFiles/randomtestcard2.dir/rule
+
+.PHONY : randomtestcard2
+
+# clean rule for target.
+CMakeFiles/randomtestcard2.dir/clean:
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/clean
+.PHONY : CMakeFiles/randomtestcard2.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/randomtestcard2.dir/clean
 
 .PHONY : clean
 
