@@ -1,0 +1,2 @@
+/usr/bin/ar qc librngs.o.a  CMakeFiles/rngs.o.dir/rngs.c.o
+/usr/bin/ranlib librngs.o.a

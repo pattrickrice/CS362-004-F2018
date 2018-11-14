@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c
+dominion.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+dominion_helpers.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion_helpers.h
+rngs.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion_helpers.h
+dominion.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/playdom.c
+dominion.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+stdio.h
+-
+rngs.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
+stdlib.h
+-
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.h
+

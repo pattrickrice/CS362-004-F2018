@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdominion.o.a  CMakeFiles/dominion.o.dir/dominion.c.o ../rngs.o
+/usr/bin/ranlib libdominion.o.a
