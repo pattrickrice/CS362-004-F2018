@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/randomtestcard1.dir/randomtestcard1.c.o"
   "CMakeFiles/randomtestcard1.dir/dominion.c.o"
   "CMakeFiles/randomtestcard1.dir/rngs.c.o"
+  "CMakeFiles/randomtestcard1.dir/utils.c.o"
   "randomtestcard1.pdb"
   "randomtestcard1"
 )

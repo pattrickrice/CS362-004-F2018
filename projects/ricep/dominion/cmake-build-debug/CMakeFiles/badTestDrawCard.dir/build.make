@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -70,21 +70,62 @@ CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/badTestDrawCard.c -o CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.s
 
+CMakeFiles/badTestDrawCard.dir/dominion.c.o: CMakeFiles/badTestDrawCard.dir/flags.make
+CMakeFiles/badTestDrawCard.dir/dominion.c.o: ../dominion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/badTestDrawCard.dir/dominion.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/badTestDrawCard.dir/dominion.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c
+
+CMakeFiles/badTestDrawCard.dir/dominion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/badTestDrawCard.dir/dominion.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c > CMakeFiles/badTestDrawCard.dir/dominion.c.i
+
+CMakeFiles/badTestDrawCard.dir/dominion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/badTestDrawCard.dir/dominion.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c -o CMakeFiles/badTestDrawCard.dir/dominion.c.s
+
+CMakeFiles/badTestDrawCard.dir/rngs.c.o: CMakeFiles/badTestDrawCard.dir/flags.make
+CMakeFiles/badTestDrawCard.dir/rngs.c.o: ../rngs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/badTestDrawCard.dir/rngs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/badTestDrawCard.dir/rngs.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c
+
+CMakeFiles/badTestDrawCard.dir/rngs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/badTestDrawCard.dir/rngs.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c > CMakeFiles/badTestDrawCard.dir/rngs.c.i
+
+CMakeFiles/badTestDrawCard.dir/rngs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/badTestDrawCard.dir/rngs.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c -o CMakeFiles/badTestDrawCard.dir/rngs.c.s
+
+CMakeFiles/badTestDrawCard.dir/utils.c.o: CMakeFiles/badTestDrawCard.dir/flags.make
+CMakeFiles/badTestDrawCard.dir/utils.c.o: ../utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/badTestDrawCard.dir/utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/badTestDrawCard.dir/utils.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/utils.c
+
+CMakeFiles/badTestDrawCard.dir/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/badTestDrawCard.dir/utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/utils.c > CMakeFiles/badTestDrawCard.dir/utils.c.i
+
+CMakeFiles/badTestDrawCard.dir/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/badTestDrawCard.dir/utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/utils.c -o CMakeFiles/badTestDrawCard.dir/utils.c.s
+
 # Object files for target badTestDrawCard
 badTestDrawCard_OBJECTS = \
-"CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.o"
+"CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.o" \
+"CMakeFiles/badTestDrawCard.dir/dominion.c.o" \
+"CMakeFiles/badTestDrawCard.dir/rngs.c.o" \
+"CMakeFiles/badTestDrawCard.dir/utils.c.o"
 
 # External object files for target badTestDrawCard
-badTestDrawCard_EXTERNAL_OBJECTS = \
-"/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.o" \
-"/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.o"
+badTestDrawCard_EXTERNAL_OBJECTS =
 
 badTestDrawCard: CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.o
-badTestDrawCard: ../dominion.o
-badTestDrawCard: ../rngs.o
+badTestDrawCard: CMakeFiles/badTestDrawCard.dir/dominion.c.o
+badTestDrawCard: CMakeFiles/badTestDrawCard.dir/rngs.c.o
+badTestDrawCard: CMakeFiles/badTestDrawCard.dir/utils.c.o
 badTestDrawCard: CMakeFiles/badTestDrawCard.dir/build.make
 badTestDrawCard: CMakeFiles/badTestDrawCard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable badTestDrawCard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable badTestDrawCard"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/badTestDrawCard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

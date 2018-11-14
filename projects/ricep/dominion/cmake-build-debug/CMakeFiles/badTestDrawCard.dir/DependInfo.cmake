@@ -5,6 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/badTestDrawCard.c" "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.o"
+  "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c" "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles/badTestDrawCard.dir/dominion.c.o"
+  "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c" "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles/badTestDrawCard.dir/rngs.c.o"
+  "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/utils.c" "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles/badTestDrawCard.dir/utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

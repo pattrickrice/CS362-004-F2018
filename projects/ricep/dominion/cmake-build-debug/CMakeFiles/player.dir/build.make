@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -70,23 +70,47 @@ CMakeFiles/player.dir/player.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/player.dir/player.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/player.c -o CMakeFiles/player.dir/player.c.s
 
+CMakeFiles/player.dir/dominion.c.o: CMakeFiles/player.dir/flags.make
+CMakeFiles/player.dir/dominion.c.o: ../dominion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/player.dir/dominion.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/player.dir/dominion.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c
+
+CMakeFiles/player.dir/dominion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/player.dir/dominion.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c > CMakeFiles/player.dir/dominion.c.i
+
+CMakeFiles/player.dir/dominion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/player.dir/dominion.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c -o CMakeFiles/player.dir/dominion.c.s
+
+CMakeFiles/player.dir/rngs.c.o: CMakeFiles/player.dir/flags.make
+CMakeFiles/player.dir/rngs.c.o: ../rngs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/player.dir/rngs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/player.dir/rngs.c.o   -c /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c
+
+CMakeFiles/player.dir/rngs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/player.dir/rngs.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c > CMakeFiles/player.dir/rngs.c.i
+
+CMakeFiles/player.dir/rngs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/player.dir/rngs.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c -o CMakeFiles/player.dir/rngs.c.s
+
 # Object files for target player
 player_OBJECTS = \
-"CMakeFiles/player.dir/player.c.o"
+"CMakeFiles/player.dir/player.c.o" \
+"CMakeFiles/player.dir/dominion.c.o" \
+"CMakeFiles/player.dir/rngs.c.o"
 
 # External object files for target player
-player_EXTERNAL_OBJECTS = \
-"/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.o" \
-"/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.o" \
-"/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/interface.o"
+player_EXTERNAL_OBJECTS =
 
 libplayer.a: CMakeFiles/player.dir/player.c.o
-libplayer.a: ../dominion.o
-libplayer.a: ../rngs.o
-libplayer.a: ../interface.o
+libplayer.a: CMakeFiles/player.dir/dominion.c.o
+libplayer.a: CMakeFiles/player.dir/rngs.c.o
 libplayer.a: CMakeFiles/player.dir/build.make
 libplayer.a: CMakeFiles/player.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libplayer.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libplayer.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/player.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/player.dir/link.txt --verbose=$(VERBOSE)
 

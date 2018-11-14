@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.c" "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles/player.dir/dominion.c.o"
   "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/player.c" "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles/player.dir/player.c.o"
+  "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/rngs.c" "/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/cmake-build-debug/CMakeFiles/player.dir/rngs.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

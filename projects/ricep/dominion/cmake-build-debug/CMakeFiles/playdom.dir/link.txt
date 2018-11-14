@@ -1,1 +1,1 @@
-/usr/bin/cc  -Wall -g   CMakeFiles/playdom.dir/dominion.c.o CMakeFiles/playdom.dir/interface.c.o CMakeFiles/playdom.dir/playdom.c.o CMakeFiles/playdom.dir/rngs.c.o CMakeFiles/playdom.dir/randomtestcard1.c.o  -o playdom -lm 
+/usr/bin/cc  -Wall -g   CMakeFiles/playdom.dir/playdom.c.o CMakeFiles/playdom.dir/dominion.c.o CMakeFiles/playdom.dir/rngs.c.o  -o playdom -lm 

@@ -1,1 +1,1 @@
-/usr/bin/cc -std=c99 -g   CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.o ../dominion.o ../rngs.o  -o badTestDrawCard 
+/usr/bin/cc  -Wall -g   CMakeFiles/badTestDrawCard.dir/badTestDrawCard.c.o CMakeFiles/badTestDrawCard.dir/dominion.c.o CMakeFiles/badTestDrawCard.dir/rngs.c.o CMakeFiles/badTestDrawCard.dir/utils.c.o  -o badTestDrawCard 

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/player.dir/player.c.o"
+  "CMakeFiles/player.dir/dominion.c.o"
+  "CMakeFiles/player.dir/rngs.c.o"
   "libplayer.pdb"
   "libplayer.a"
 )
