@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <zconf.h>
 
 /******************************************************************************
  * Prints whether the result is true or false along with the test name
@@ -16,6 +17,8 @@ int assertTrue(int result, char testName[])
     {
         size_t resultSize = strlen(" - [FAILED]");
         char buffer[size + resultSize + 100];
+        memset(buffer, 0, sizeof(size + resultSize + 100));
+
         sprintf(buffer, "%s - %s", "[FAILED]", testName);
         logE(buffer);
         return 0;
@@ -23,6 +26,8 @@ int assertTrue(int result, char testName[])
     {
         size_t resultSize = strlen(" - [PASSED]");
         char buffer[size + resultSize + 100];
+        memset(buffer, 0, sizeof(size + resultSize + 100));
+
         sprintf(buffer, "%s - %s", "[PASSED]", testName);
         logS(buffer);
         return 1;
@@ -85,6 +90,7 @@ void logE(char message[]){
            timeString,
            message,
            ANSI_COLOR_RESET);
+    free(timeString);
 }
 
 /******************************************************************************
@@ -104,6 +110,8 @@ void logW(char message[]){
 
 int printResults(int total, int passed){
     char buffer[100];
+    memset(buffer, 0, sizeof(buffer));
+
     sprintf(buffer, "Total tests %d; total passed %d\n", total, passed);
     assertTrue((total == passed), buffer);
     if (total == passed){
@@ -113,7 +121,10 @@ int printResults(int total, int passed){
 }
 
 int assertEqual(int value1, int value2, char *message){
-    char *buffer = malloc((sizeof(message) + 10) + sizeof(int) * 2);
+    int size = sizeof(message) + 100 + sizeof(int) * 2;
+    char *buffer = malloc((size_t) size);
+    memset(buffer, 0, (size_t) size);
+
     int result = -1;
     if (value1 == value2){
         result =  assertTrue(1, message);
@@ -138,3 +149,4 @@ char* random_string(int length){
     random_string[length - 1] = '\0';
     return random_string;
 }
+

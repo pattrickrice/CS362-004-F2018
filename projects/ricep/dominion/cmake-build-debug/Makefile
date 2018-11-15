@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/c
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/clion-2018.1.5/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named randomtestcard1
-
-# Build rule for target.
-randomtestcard1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 randomtestcard1
-.PHONY : randomtestcard1
-
-# fast build rule for target.
-randomtestcard1/fast:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/build
-.PHONY : randomtestcard1/fast
-
-#=============================================================================
 # Target rules for targets named rngs
 
 # Build rule for target.
@@ -135,6 +122,19 @@ rngs: cmake_check_build_system
 rngs/fast:
 	$(MAKE) -f CMakeFiles/rngs.dir/build.make CMakeFiles/rngs.dir/build
 .PHONY : rngs/fast
+
+#=============================================================================
+# Target rules for targets named randomtestadventurer
+
+# Build rule for target.
+randomtestadventurer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 randomtestadventurer
+.PHONY : randomtestadventurer
+
+# fast build rule for target.
+randomtestadventurer/fast:
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/build
+.PHONY : randomtestadventurer/fast
 
 #=============================================================================
 # Target rules for targets named utils
@@ -163,17 +163,17 @@ player/fast:
 .PHONY : player/fast
 
 #=============================================================================
-# Target rules for targets named randomtestcard3
+# Target rules for targets named dominion
 
 # Build rule for target.
-randomtestcard3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 randomtestcard3
-.PHONY : randomtestcard3
+dominion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dominion
+.PHONY : dominion
 
 # fast build rule for target.
-randomtestcard3/fast:
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/build
-.PHONY : randomtestcard3/fast
+dominion/fast:
+	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/build
+.PHONY : dominion/fast
 
 #=============================================================================
 # Target rules for targets named randomtestcard2
@@ -187,19 +187,6 @@ randomtestcard2: cmake_check_build_system
 randomtestcard2/fast:
 	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/build
 .PHONY : randomtestcard2/fast
-
-#=============================================================================
-# Target rules for targets named dominion
-
-# Build rule for target.
-dominion: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dominion
-.PHONY : dominion
-
-# fast build rule for target.
-dominion/fast:
-	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/build
-.PHONY : dominion/fast
 
 #=============================================================================
 # Target rules for targets named playdom
@@ -253,6 +240,19 @@ interface/fast:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/build
 .PHONY : interface/fast
 
+#=============================================================================
+# Target rules for targets named randomtestcard1
+
+# Build rule for target.
+randomtestcard1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 randomtestcard1
+.PHONY : randomtestcard1
+
+# fast build rule for target.
+randomtestcard1/fast:
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/build
+.PHONY : randomtestcard1/fast
+
 badTestDrawCard.o: badTestDrawCard.c.o
 
 .PHONY : badTestDrawCard.o
@@ -286,14 +286,14 @@ dominion.o: dominion.c.o
 
 # target to build an object file
 dominion.c.o:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.o
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/dominion.c.o
 	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/dominion.c.o
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/dominion.c.o
-	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.o
 	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/dominion.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.o
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/dominion.c.o
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/dominion.c.o
 	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/dominion.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.o
 .PHONY : dominion.c.o
 
 dominion.i: dominion.c.i
@@ -302,14 +302,14 @@ dominion.i: dominion.c.i
 
 # target to preprocess a source file
 dominion.c.i:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.i
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/dominion.c.i
 	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/dominion.c.i
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/dominion.c.i
-	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.i
 	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/dominion.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.i
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/dominion.c.i
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/dominion.c.i
 	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/dominion.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.i
 .PHONY : dominion.c.i
 
 dominion.s: dominion.c.s
@@ -318,14 +318,14 @@ dominion.s: dominion.c.s
 
 # target to generate assembly for a file
 dominion.c.s:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.s
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/dominion.c.s
 	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/dominion.c.s
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/dominion.c.s
-	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.s
 	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/dominion.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/dominion.c.s
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/dominion.c.s
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/dominion.c.s
 	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/dominion.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/dominion.c.s
 .PHONY : dominion.c.s
 
 interface.o: interface.c.o
@@ -409,6 +409,33 @@ player.c.s:
 	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/player.c.s
 .PHONY : player.c.s
 
+randomtestadventurer.o: randomtestadventurer.c.o
+
+.PHONY : randomtestadventurer.o
+
+# target to build an object file
+randomtestadventurer.c.o:
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/randomtestadventurer.c.o
+.PHONY : randomtestadventurer.c.o
+
+randomtestadventurer.i: randomtestadventurer.c.i
+
+.PHONY : randomtestadventurer.i
+
+# target to preprocess a source file
+randomtestadventurer.c.i:
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/randomtestadventurer.c.i
+.PHONY : randomtestadventurer.c.i
+
+randomtestadventurer.s: randomtestadventurer.c.s
+
+.PHONY : randomtestadventurer.s
+
+# target to generate assembly for a file
+randomtestadventurer.c.s:
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/randomtestadventurer.c.s
+.PHONY : randomtestadventurer.c.s
+
 randomtestcard1.o: randomtestcard1.c.o
 
 .PHONY : randomtestcard1.o
@@ -463,48 +490,21 @@ randomtestcard2.c.s:
 	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/randomtestcard2.c.s
 .PHONY : randomtestcard2.c.s
 
-randomtestcard3.o: randomtestcard3.c.o
-
-.PHONY : randomtestcard3.o
-
-# target to build an object file
-randomtestcard3.c.o:
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/randomtestcard3.c.o
-.PHONY : randomtestcard3.c.o
-
-randomtestcard3.i: randomtestcard3.c.i
-
-.PHONY : randomtestcard3.i
-
-# target to preprocess a source file
-randomtestcard3.c.i:
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/randomtestcard3.c.i
-.PHONY : randomtestcard3.c.i
-
-randomtestcard3.s: randomtestcard3.c.s
-
-.PHONY : randomtestcard3.s
-
-# target to generate assembly for a file
-randomtestcard3.c.s:
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/randomtestcard3.c.s
-.PHONY : randomtestcard3.c.s
-
 rngs.o: rngs.c.o
 
 .PHONY : rngs.o
 
 # target to build an object file
 rngs.c.o:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.o
 	$(MAKE) -f CMakeFiles/rngs.dir/build.make CMakeFiles/rngs.dir/rngs.c.o
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/rngs.c.o
 	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/rngs.c.o
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/rngs.c.o
-	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.o
 	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/rngs.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.o
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/rngs.c.o
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/rngs.c.o
 	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/rngs.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.o
 .PHONY : rngs.c.o
 
 rngs.i: rngs.c.i
@@ -513,15 +513,15 @@ rngs.i: rngs.c.i
 
 # target to preprocess a source file
 rngs.c.i:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.i
 	$(MAKE) -f CMakeFiles/rngs.dir/build.make CMakeFiles/rngs.dir/rngs.c.i
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/rngs.c.i
 	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/rngs.c.i
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/rngs.c.i
-	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.i
 	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/rngs.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.i
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/rngs.c.i
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/rngs.c.i
 	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/rngs.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.i
 .PHONY : rngs.c.i
 
 rngs.s: rngs.c.s
@@ -530,15 +530,15 @@ rngs.s: rngs.c.s
 
 # target to generate assembly for a file
 rngs.c.s:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.s
 	$(MAKE) -f CMakeFiles/rngs.dir/build.make CMakeFiles/rngs.dir/rngs.c.s
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/rngs.c.s
 	$(MAKE) -f CMakeFiles/player.dir/build.make CMakeFiles/player.dir/rngs.c.s
-	$(MAKE) -f CMakeFiles/randomtestcard3.dir/build.make CMakeFiles/randomtestcard3.dir/rngs.c.s
-	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.s
 	$(MAKE) -f CMakeFiles/dominion.dir/build.make CMakeFiles/dominion.dir/rngs.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard2.dir/build.make CMakeFiles/randomtestcard2.dir/rngs.c.s
 	$(MAKE) -f CMakeFiles/playdom.dir/build.make CMakeFiles/playdom.dir/rngs.c.s
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/rngs.c.s
 	$(MAKE) -f CMakeFiles/testBuyCard.dir/build.make CMakeFiles/testBuyCard.dir/rngs.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/rngs.c.s
 .PHONY : rngs.c.s
 
 testBuyCard.o: testBuyCard.c.o
@@ -574,9 +574,10 @@ utils.o: utils.c.o
 
 # target to build an object file
 utils.c.o:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/utils.c.o
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/utils.c.o
 	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/utils.c.o
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/utils.c.o
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/utils.c.o
 .PHONY : utils.c.o
 
 utils.i: utils.c.i
@@ -585,9 +586,10 @@ utils.i: utils.c.i
 
 # target to preprocess a source file
 utils.c.i:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/utils.c.i
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/utils.c.i
 	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/utils.c.i
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/utils.c.i
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/utils.c.i
 .PHONY : utils.c.i
 
 utils.s: utils.c.s
@@ -596,9 +598,10 @@ utils.s: utils.c.s
 
 # target to generate assembly for a file
 utils.c.s:
-	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/utils.c.s
+	$(MAKE) -f CMakeFiles/randomtestadventurer.dir/build.make CMakeFiles/randomtestadventurer.dir/utils.c.s
 	$(MAKE) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/utils.c.s
 	$(MAKE) -f CMakeFiles/badTestDrawCard.dir/build.make CMakeFiles/badTestDrawCard.dir/utils.c.s
+	$(MAKE) -f CMakeFiles/randomtestcard1.dir/build.make CMakeFiles/randomtestcard1.dir/utils.c.s
 .PHONY : utils.c.s
 
 # Help Target
@@ -607,19 +610,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... randomtestcard1"
 	@echo "... rngs"
+	@echo "... randomtestadventurer"
 	@echo "... utils"
 	@echo "... player"
-	@echo "... rebuild_cache"
-	@echo "... randomtestcard3"
-	@echo "... randomtestcard2"
 	@echo "... dominion"
+	@echo "... randomtestcard2"
 	@echo "... playdom"
 	@echo "... badTestDrawCard"
 	@echo "... testBuyCard"
 	@echo "... interface"
+	@echo "... randomtestcard1"
 	@echo "... badTestDrawCard.o"
 	@echo "... badTestDrawCard.i"
 	@echo "... badTestDrawCard.s"
@@ -635,15 +638,15 @@ help:
 	@echo "... player.o"
 	@echo "... player.i"
 	@echo "... player.s"
+	@echo "... randomtestadventurer.o"
+	@echo "... randomtestadventurer.i"
+	@echo "... randomtestadventurer.s"
 	@echo "... randomtestcard1.o"
 	@echo "... randomtestcard1.i"
 	@echo "... randomtestcard1.s"
 	@echo "... randomtestcard2.o"
 	@echo "... randomtestcard2.i"
 	@echo "... randomtestcard2.s"
-	@echo "... randomtestcard3.o"
-	@echo "... randomtestcard3.i"
-	@echo "... randomtestcard3.s"
 	@echo "... rngs.o"
 	@echo "... rngs.i"
 	@echo "... rngs.s"

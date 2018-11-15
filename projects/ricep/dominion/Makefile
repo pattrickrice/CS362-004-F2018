@@ -42,5 +42,14 @@ randomtestresults:
 	make all
 	make utils.o
 	gcc -o randomtestcard1 randomtestcard1.c -g  dominion.o rngs.o utils.o $(CFLAGS)
-
+	gcc -o randomtestcard2 randomtestcard2.c -g  dominion.o rngs.o utils.o $(CFLAGS)
+	gcc -o randomtestadventurer randomtestadventurer.c -g  dominion.o rngs.o utils.o $(CFLAGS)
 	./randomtestcard1
+	./randomtestcard2
+	./randomtestadventurer
+	gcov randomtestcard1.c
+	gcov randomtestcard2.c
+	gcov randomtestadventurer.c
+	gcov dominion.c
+
+	@echo "Programs outputted as randomtestcard1 randomtestcard2 randomtestadventurer"

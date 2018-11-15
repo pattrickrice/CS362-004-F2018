@@ -12,14 +12,6 @@ add_executable(
         rngs.c
         rngs.h)
 
-add_executable(
-        randomtestcard3
-        randomtestcard3.c
-        dominion.c
-        dominion.h
-        rngs.c
-        rngs.h)
-
 add_library(utils utils.c utils.h)
 add_library(rngs rngs.h rngs.c)
 
@@ -44,5 +36,14 @@ add_executable(
         rngs
         utils)
 
+add_executable(
+        randomtestadventurer
+        randomtestadventurer.c
+        dominion
+        rngs
+        utils)
+
 target_link_libraries(randomtestcard1 m)
+target_link_libraries(randomtestadventurer m)
+
 target_link_libraries(playdom m)
