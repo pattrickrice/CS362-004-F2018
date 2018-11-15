@@ -22,25 +22,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c0ded64-c7d8-4670-94d5-451c7551a311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/randomtestadventurer.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/randomtestcard1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/randomtestcard1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/randomtestcard2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/randomtestcard2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testBuyCard.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testBuyCard.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dominion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dominion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playdom" beforeDir="false" afterPath="$PROJECT_DIR$/playdom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomtestadventurer" beforeDir="false" afterPath="$PROJECT_DIR$/randomtestadventurer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomtestadventurer.c" beforeDir="false" afterPath="$PROJECT_DIR$/randomtestadventurer.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/randomtestcard1" beforeDir="false" afterPath="$PROJECT_DIR$/randomtestcard1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/randomtestcard1.c" beforeDir="false" afterPath="$PROJECT_DIR$/randomtestcard1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomtestcard2" beforeDir="false" afterPath="$PROJECT_DIR$/randomtestcard2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/randomtestcard2.c" beforeDir="false" afterPath="$PROJECT_DIR$/randomtestcard2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomtestcard3.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +53,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Makefile" value="117" />
-          <entry key="c" value="2827" />
+          <entry key="Makefile" value="119" />
+          <entry key="c" value="3041" />
           <entry key="h" value="29" />
           <entry key="txt" value="312" />
         </counts>
@@ -74,15 +62,16 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="17" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="ObjectiveC" value="18" />
+          <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="6" />
-          <entry key="c" value="12" />
+          <entry key="c" value="13" />
+          <entry key="gcov" value="3" />
           <entry key="h" value="5" />
           <entry key="txt" value="1" />
         </counts>
@@ -91,8 +80,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="312" />
-          <entry key="ObjectiveC" value="2856" />
-          <entry key="PLAIN_TEXT" value="117" />
+          <entry key="ObjectiveC" value="3070" />
+          <entry key="PLAIN_TEXT" value="119" />
         </counts>
       </usages-collector>
     </session>
@@ -102,8 +91,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dominion.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="18828">
               <caret line="1046" selection-start-line="1046" selection-end-line="1046" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/randomtestcard1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-380">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="22" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -132,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/randomtestadventurer.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1204">
-              <caret line="167" column="10" selection-start-line="167" selection-start-column="10" selection-end-line="167" selection-end-column="10" />
+            <state relative-caret-position="396">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -144,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/randomtestcard2.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="1170">
+              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -159,8 +160,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="846">
+              <caret line="47" selection-start-line="47" selection-end-line="48" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dominion.c.gcov">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1103">
+              <caret line="1160" selection-start-line="1160" selection-end-line="1160" />
             </state>
           </provider>
         </entry>
@@ -178,7 +188,6 @@
       <find>int z</find>
       <find>adventurer</find>
       <find>card_adventurer</find>
-      <find>smithy</find>
       <find>handPos</find>
       <find>discardCard</find>
       <find>cardSm</find>
@@ -194,6 +203,7 @@
       <find>council</find>
       <find>numby</find>
       <find>drawCard(</find>
+      <find>smithy</find>
       <find>shuffle(</find>
     </findStrings>
   </component>
@@ -207,11 +217,11 @@
         <option value="$PROJECT_DIR$/utils.h" />
         <option value="$PROJECT_DIR$/utils.c" />
         <option value="$PROJECT_DIR$/randomtestcard3.c" />
-        <option value="$PROJECT_DIR$/randomtestcard1.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/randomtestcard2.c" />
         <option value="$PROJECT_DIR$/dominion.c" />
+        <option value="$PROJECT_DIR$/randomtestcard2.c" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/randomtestcard1.c" />
         <option value="$PROJECT_DIR$/randomtestadventurer.c" />
       </list>
     </option>
@@ -356,12 +366,12 @@
       <workItem from="1541378078676" duration="6000" />
       <workItem from="1542174460095" duration="8000" />
       <workItem from="1542174475215" duration="6354000" />
-      <workItem from="1542250082841" duration="11553000" />
+      <workItem from="1542250082841" duration="16542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25380000" />
+    <option name="totallyTimeSpent" value="30369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1080" height="1922" extended-state="6" />
@@ -394,17 +404,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/randomtestadventurer.c</url>
-          <line>170</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/betterTestDrawCard.c">
@@ -458,16 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/randomtestcard1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -485,19 +474,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/randomtestcard2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dominion.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="18828">
           <caret line="1046" selection-start-line="1046" selection-end-line="1046" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -505,17 +484,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dominion.c.gcov">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1103">
+          <caret line="1160" selection-start-line="1160" selection-end-line="1160" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        <state relative-caret-position="846">
+          <caret line="47" selection-start-line="47" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomtestcard1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/randomtestadventurer.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="167" column="10" selection-start-line="167" selection-start-column="10" selection-end-line="167" selection-end-column="10" />
+        <state relative-caret-position="396">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/randomtestcard2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>

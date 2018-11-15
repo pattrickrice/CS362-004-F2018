@@ -26,14 +26,14 @@ int testSmithy() {
 
 
 
-    int range = 1000;
-    int numPlayer = 2;
-    int seed = 1;
-
+    int range = 100000;
     int k[10] = {adventurer, council_room, feast, gardens, mine
             , remodel, smithy, village, baron, great_hall};
 
     for (int i = 0; i < range; i++) {
+        int seed = random_number(1, 10);
+        int numPlayer = random_number(1, 4);
+
         struct gameState state = *newGame();
 
         initializeGame(numPlayer, k, seed, &state); // initialize a new game
@@ -60,8 +60,8 @@ int testSmithy() {
         logV(buffer);
 
         // random test data
-        player = random_number(0, 4);
-        correct_handsize = random_number(0, 50);
+        player = random_number(0, numPlayer);
+        correct_handsize = random_number(0, MAX_HAND - 2);
         correct_number_of_cards = correct_handsize + 2;
         player_1_deckcount = random_number(4, MAX_DECK);
 
@@ -108,7 +108,8 @@ int testSmithy() {
 
         totalTests++;
         sprintf(buffer,
-                "{after} Player 1 deckCount is %d",
+                "{after} Player %d deckCount is %d",
+                player,
                 player_1_deckcount - 4);
         passedTests += assertEqual(
                 state.deckCount[player],

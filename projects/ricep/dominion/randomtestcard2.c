@@ -26,15 +26,15 @@ int testCouncilRoom() {
 
 
 
-    int range = 1000;
+    int range = 100000;
     int numPlayer = 2;
-    int seed = 1;
 
     int k[10] = {adventurer, council_room, feast, gardens, mine
             , remodel, smithy, village, baron, great_hall};
 
     for (int i = 0; i < range; i++) {
         struct gameState state = *newGame();
+        int seed = random_number(1, 10);
 
         initializeGame(numPlayer, k, seed, &state); // initialize a new game
 
@@ -63,8 +63,8 @@ int testCouncilRoom() {
         logV(buffer);
 
         // random test data
-        player = random_number(0, 4);
-        correct_handsize = random_number(0, 50);
+        player = 0;
+        correct_handsize = random_number(0, MAX_HAND);
         correct_number_of_cards = correct_handsize + 3;
         number_of_buys = random_number(0, range);
         player_1_deckcount = random_number(4, MAX_DECK);
