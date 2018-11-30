@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -g   CMakeFiles/randomtestadventurer.dir/randomtestadventurer.c.o CMakeFiles/randomtestadventurer.dir/dominion.c.o CMakeFiles/randomtestadventurer.dir/rngs.c.o CMakeFiles/randomtestadventurer.dir/utils.c.o  -o randomtestadventurer -lm 

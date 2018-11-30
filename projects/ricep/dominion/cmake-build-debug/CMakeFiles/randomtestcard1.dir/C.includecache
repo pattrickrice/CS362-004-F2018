@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion_helpers.h
+dominion.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/randomtestcard1.c
+dominion.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion.h
+utils.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/utils.h
+dominion_helpers.h
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/dominion_helpers.h
+
+/home/patrick/CS362/CS362-004-F2018/projects/ricep/dominion/utils.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+time.h
+-
+string.h
+-
+
