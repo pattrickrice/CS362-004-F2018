@@ -1,11 +1,11 @@
 import junit.framework.TestCase;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 
-//You can use this as a skeleton for your 3 different test approach
-//It is an optional to use this file, you can generate your own test file(s) to test the target function!
+// You can use this as a skeleton for your 3 different test approach
+// It is an optional to use this file, you can generate your own test file(s) to
+// test the target function!
 // Again, it is up to you to use this file or not!
 
 
@@ -387,8 +387,64 @@ public class UrlValidatorTest extends TestCase {
 
 	public void testIsValid() {
 		// You can use this function for programming based testing
+		UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+		String url1;
+		boolean expected;
+		boolean result;
 
+		List<String> protocols = Arrays.asList(
+				"http://",
+				"ftp://",
+				"hfdasfat://",
+				""
+		);
+
+
+		List<String> authoritys = Arrays.asList(
+				"www.stackoverflow.com",
+				"dafadsf.com"
+		);
+
+		List<String> ports = Arrays.asList(
+				":80",
+				":120"
+		);
+
+		List<String> paths = Arrays.asList(
+				"/hello",
+				"/",
+				"",
+				"/world/"
+		);
+
+		List<String> queries = Arrays.asList(
+				"/?hello=world",
+				"/?hello=world&mars=faraway",
+				""
+
+		);
+
+		// bad style but let's not worry about that
+		for (String protocol: protocols
+			 ) {
+			for (String authority: authoritys
+				 ) {
+				for (String port: ports
+					 ) {
+					for (String path: paths
+						 ) {
+						for (String query: queries
+							 ) {
+							String url = protocol + authority + port + path + query;
+							expected = true;
+							result = urlVal.isValid(url);
+
+							LOGGER.info("protocol: " + url + " result: " + result);
+							assertEquals(url, expected, result);
+						}
+					}
+				}
+			}
+		}
 	}
-
-
 }
