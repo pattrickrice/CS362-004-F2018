@@ -41,11 +41,11 @@ public class UrlValidatorTest extends TestCase {
 		expected = true;
 		for (int i = 0; i < testUrls.size(); i++) {
 			String url = testUrls.get(i);
-			LOGGER.info("testing: " + url);
+			LOGGER.severe("testing: " + url);
 
 			result = urlVal.isValid(url);
 
-			LOGGER.info("protocol: " + i + " -> " + result);
+			LOGGER.severe("protocol: " + i + " -> " + result);
 			assertEquals(url, expected, result);
 
 		}
@@ -64,7 +64,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("protocol: " + url1 + " -> " + result);
+			 LOGGER.severe("protocol: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		
 		 // test case 2: ftp://
@@ -72,7 +72,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("protocol: " + url1 + " -> " + result);
+			 LOGGER.severe("protocol: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: no protocol
@@ -80,7 +80,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("protocol: " + url1 + " -> " + result);
+			 LOGGER.severe("protocol: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 4: invalid protocol
@@ -88,7 +88,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("protocol: " + url1 + " -> " + result);
+			 LOGGER.severe("protocol: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 5: https://
@@ -96,7 +96,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("protocol: " + url1 + " -> " + result);
+			 LOGGER.severe("protocol: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	}
    
@@ -113,7 +113,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("ip address: " + url1 + " -> " + result);
+			 LOGGER.severe("ip address: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	
 		// test case 2: 255.255.255.256
@@ -121,7 +121,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("ip address: " + url1 + " -> " + result);
+			 LOGGER.severe("ip address: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: no ip address or domain
@@ -129,7 +129,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("ip address: " + url1 + " -> " + result);
+			 LOGGER.severe("ip address: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
    }
    
@@ -146,7 +146,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("subdomain: " + url1 + " -> " + result);
+			 LOGGER.severe("subdomain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	   
 		// test case 2: aws
@@ -154,7 +154,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("subdomain: " + url1 + " -> " + result);
+			 LOGGER.severe("subdomain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: no subdomain
@@ -162,7 +162,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("subdomain: " + url1 + " -> " + result);
+			 LOGGER.severe("subdomain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 4: bad subdomain
@@ -170,7 +170,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("subdomain: " + url1 + " -> " + result);
+			 LOGGER.severe("subdomain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
    }
    
@@ -187,7 +187,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("TLD: " + url1 + " -> " + result);
+			 LOGGER.severe("TLD: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	   
 		// test case 2: edu
@@ -195,7 +195,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("TLD: " + url1 + " -> " + result);
+			 LOGGER.severe("TLD: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: no TLD 
@@ -203,7 +203,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("TLD: " + url1 + " -> " + result);
+			 LOGGER.severe("TLD: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 4: bad TLD 
@@ -211,7 +211,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("TLD: " + url1 + " -> " + result);
+			 LOGGER.severe("TLD: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
    }
    
@@ -228,7 +228,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("domain: " + url1 + " -> " + result);
+			 LOGGER.severe("domain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	
 		// test case 2: amazon
@@ -236,7 +236,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("domain: " + url1 + " -> " + result);
+			 LOGGER.severe("domain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: no domain
@@ -244,7 +244,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("domain: " + url1 + " -> " + result);
+			 LOGGER.severe("domain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 4: bad domain
@@ -252,7 +252,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("domain: " + url1 + " -> " + result);
+			 LOGGER.severe("domain: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result); 
    }
    
@@ -269,7 +269,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("port: " + url1 + " -> " + result);
+			 LOGGER.severe("port: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	   
 		// test case 2: 0
@@ -277,7 +277,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("port: " + url1 + " -> " + result);
+			 LOGGER.severe("port: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: 65535
@@ -285,7 +285,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("port: " + url1 + " -> " + result);
+			 LOGGER.severe("port: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 4: 65536
@@ -293,7 +293,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("port: " + url1 + " -> " + result);
+			 LOGGER.severe("port: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 5: -1
@@ -301,7 +301,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("port: " + url1 + " -> " + result);
+			 LOGGER.severe("port: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 6: no port
@@ -309,7 +309,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("port: " + url1 + " -> " + result);
+			 LOGGER.severe("port: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
    }
    
@@ -326,7 +326,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("path: " + url1 + " -> " + result);
+			 LOGGER.severe("path: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	   
 		// test case 2: /test1
@@ -334,7 +334,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("path: " + url1 + " -> " + result);
+			 LOGGER.severe("path: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: /..
@@ -342,7 +342,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("path: " + url1 + " -> " + result);
+			 LOGGER.severe("path: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 4: /$23//
@@ -350,7 +350,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("path: " + url1 + " -> " + result);
+			 LOGGER.severe("path: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 5: no path
@@ -358,7 +358,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("path: " + url1 + " -> " + result);
+			 LOGGER.severe("path: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
    }
    
@@ -375,7 +375,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("query: " + url1 + " -> " + result);
+			 LOGGER.severe("query: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	   
 		// test case 2: ?4hi32*@idf
@@ -383,7 +383,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("query: " + url1 + " -> " + result);
+			 LOGGER.severe("query: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: no query
@@ -391,7 +391,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("query: " + url1 + " -> " + result);
+			 LOGGER.severe("query: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
    }
    
@@ -408,7 +408,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("authority: " + url1 + " -> " + result);
+			 LOGGER.severe("authority: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	
 		// test case 2: no authority
@@ -416,7 +416,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("authority: " + url1 + " -> " + result);
+			 LOGGER.severe("authority: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
    }
 	   
@@ -434,7 +434,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("scheme: " + url1 + " -> " + result);
+			 LOGGER.severe("scheme: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 
 		// test case 2: ftp://
@@ -442,7 +442,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = true;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("scheme: " + url1 + " -> " + result);
+			 LOGGER.severe("scheme: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 		 
 		// test case 3: https://
@@ -450,7 +450,7 @@ public class UrlValidatorTest extends TestCase {
 		 expected = false;
 		 result = urlVal.isValid(url1);
 		 if (expected != result)
-			 LOGGER.info("scheme: " + url1 + " -> " + result);
+			 LOGGER.severe("scheme: " + url1 + " -> " + result);
 		 //assertEquals(url1, expected, result);
 	}
 
@@ -508,7 +508,7 @@ public class UrlValidatorTest extends TestCase {
 							expected = true;
 							result = urlVal.isValid(url);
 
-							LOGGER.info("protocol: " + url + " result: " + result);
+							LOGGER.severe("protocol: " + url + " result: " + result);
 							assertEquals(url, expected, result);
 						}
 					}
